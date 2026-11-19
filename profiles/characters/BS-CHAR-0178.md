@@ -1,35 +1,26 @@
 # Snoopy
 
 **ID:** BS-CHAR-0178  
-**Typ:** Figur / kulturhistorisk referens  
-**Katalogkoppling:** [Figurbibliotek](../../catalog/characters.csv)  
-**Status:** Forskningsprofil (inte publicerad illustration)  
+**Registerområde:** Snobben (Peanuts)  
+**Registrerad typ:** fictional_character  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Registeruppgifter (ej individuellt faktagranskade)
-- Namn: **Snoopy**
-- Universum/program: **Snobben (Peanuts)**
-- Epokfält: **1950s–2020s**
-- Ursprungskategori: **internationell**
+## Faktaverifierade uppgifter (1)
+- **CLM-0027** Snoopy leker författare och fantiserar om att vara flygaress. [Källa SRC046](https://www.peanuts.com/about/snoopy) – exakt avgränsning: Interests, lines 111-128
 
-## Källspår
-- Ingen objektspecifik källa verifierad. Sök officiell skapare, arkiv, förlag eller rättighetsinnehavare; lägg till exakt objektsida.
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Fördjupningsfält (att fylla med verifierad evidens)
-| Fält | Status |
-| --- | --- |
-| Alternativa namn och svenska benämningar | Ej verifierat |
-| Första belagda framträdande och kronologi | Ej verifierat |
-| Skapare, produktion, distribution | Ej verifierat |
-| Utseende, rekvisita, relationer, figurutveckling | Ej verifierat |
-| Svenska tv-/kulturkopplingar och generationsrelevans | Ej verifierat |
-| Kulturellt och illustrativt bildspråk | Analys återstår |
-| Upphov, porträtt- och distributionsrätt | Granskning krävs |
-| Objektbunden källa, citat/källställe, kontrolltidpunkt | Krävs |
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Förhållandet mellan figur, roll, ursprunglig serie och svensk sändning/dubbning.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-## Produktionsförslag – endast koncept
-- Avgränsad faktaruta eller historiskt quiz efter verifiering.
-- Tidsperiodsinspirerat **eget** motiv som inte kopierar skyddad figur eller porträtt.
-- Licensierad karaktärsillustration först efter dokumenterad rättighetsprövning.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-CHAR-0178.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Beslutsgate
-`research_candidate → source_checked → rights_checked → production_approved`. Inget godkännande att reproducera bilden/namnet som endorsement ges av denna post.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

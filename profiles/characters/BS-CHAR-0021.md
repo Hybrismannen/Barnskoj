@@ -1,31 +1,27 @@
 # Skurt
 
-**Register-ID:** BS-CHAR-0021  
-**Referensvärld:** Skurt / Skurt-magasinet  
-**Entitetstyp:** Fiktiv tv-dockfigur  
-**Researchstatus:** source_checked_partial (endast nedanstående explicita uppgifter)  
-**Rättighetsstatus:** restricted_reference / not cleared
+**ID:** BS-CHAR-0021  
+**Registerområde:** Skurt / Skurt-magasinet  
+**Registrerad typ:** fictional_character  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Historik med belägg
-Enligt en intervju med Ingamay Hörnberg i Svenska Dagbladet gjorde Skurt entré i tv 1988 i anslutning till TV3:s start.
+## Faktaverifierade uppgifter (2)
+- **CLM-0034** Skurt och Ingamay Hörnberg började synas på TV3 år 1988. [Källa SRC024](https://www.svd.se/a/4dzj4V/skurts-mamma-om-aren-pa-tv3) – exakt avgränsning: SvD interview, debut summary
+- **CLM-0035** Skurts eget arkiv beskriver ett första TV3-program från 1988. [Källa SRC090](https://skurt.se/skurts-filmsida/) – exakt avgränsning: Filmsida first recording caption
 
-## Figur, sammanhang och kulturrelevans
-Skurt beskrivs som en liten grön dockfigur och har stark svensk tv-nostalgikoppling. Ingamay Hörnberg är verklig programledare och ska inte klassas som fiktiv figur.
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Källor
-- SRC024: https://www.svd.se/a/4dzj4V/skurts-mamma-om-aren-pa-tv3
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Förhållandet mellan figur, roll, ursprunglig serie och svensk sändning/dubbning.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-**Källkontroll:** 2026-11-19. Endast redovisade fakta är grundade. Upphov till samtliga versioner, exklusiva licensrättigheter, samtliga sändningsår och svenska röstlistor är inte fullständigt kartlagda.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-CHAR-0021.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Formidéer och produktionspotential
-Separera dockfigurens design från själva tv-programmets research. För publik kopia/prick-till-prick av Skurt behövs rättighetsbedömning.
-
-Möjliga format: källverifierat triviaquiz, historiskt aktivitetsblad och separat rättighetsklarerat illustrerat material. Vuxennostalgisk bok kan knytas till programmets dokumenterade tidsepok utan att återge originalkaraktären.
-
-## Återstående fördjupning
-- Exakta utseendevarianter, upphovspersoner, svenska titlar och dokumenterad sändningshistorik
-- Karaktärsrelationer, arkivposter och bildmaterial med granskningsbar källa
-- Juridisk bedömning för planerad reproduktion eller kommersiell bokutgivning
-- Individuellt godkänd illustratorisk specifikation och provutskrift
-
-**Produktionsbeslut:** Väntar på rättighetsklarering. Källdokumentation är inte en bildlicens.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

@@ -1,36 +1,26 @@
 # Ingamay Hörnberg
 
 **ID:** BS-CHAR-0022  
-**Typ:** Figur / kulturhistorisk referens  
-**Katalogkoppling:** [Figurbibliotek](../../catalog/characters.csv)  
-**Status:** Forskningsprofil (inte publicerad illustration)  
+**Registerområde:** Skurt / Skurt-magasinet  
+**Registrerad typ:** real_person_presenter  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Registeruppgifter (ej individuellt faktagranskade)
-- Namn: **Ingamay Hörnberg**
-- Universum/program: **Skurt / Skurt-magasinet**
-- Epokfält: **1980s–2000s**
-- Ursprungskategori: **svensk**
+## Faktaverifierade uppgifter (1)
+- **CLM-0036** Ingamay Hörnberg var Skurts programledare/röst i TV3. [Källa SRC024](https://www.svd.se/a/4dzj4V/skurts-mamma-om-aren-pa-tv3) – exakt avgränsning: SvD interview, 2017
 
-## Källspår
-- [SRC001 – SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) — verified_source_portal; ingång till vidare objektsökning, inte belägg för enskilda påståenden
-- [SRC010 – Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) — verified_source_portal; ingång till vidare objektsökning, inte belägg för enskilda påståenden
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Fördjupningsfält (att fylla med verifierad evidens)
-| Fält | Status |
-| --- | --- |
-| Alternativa namn och svenska benämningar | Ej verifierat |
-| Första belagda framträdande och kronologi | Ej verifierat |
-| Skapare, produktion, distribution | Ej verifierat |
-| Utseende, rekvisita, relationer, figurutveckling | Ej verifierat |
-| Svenska tv-/kulturkopplingar och generationsrelevans | Ej verifierat |
-| Kulturellt och illustrativt bildspråk | Analys återstår |
-| Upphov, porträtt- och distributionsrätt | Granskning krävs |
-| Objektbunden källa, citat/källställe, kontrolltidpunkt | Krävs |
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Förhållandet mellan figur, roll, ursprunglig serie och svensk sändning/dubbning.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-## Produktionsförslag – endast koncept
-- Avgränsad faktaruta eller historiskt quiz efter verifiering.
-- Tidsperiodsinspirerat **eget** motiv som inte kopierar skyddad figur eller porträtt.
-- Licensierad karaktärsillustration först efter dokumenterad rättighetsprövning.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-CHAR-0022.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Beslutsgate
-`research_candidate → source_checked → rights_checked → production_approved`. Inget godkännande att reproducera bilden/namnet som endorsement ges av denna post.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

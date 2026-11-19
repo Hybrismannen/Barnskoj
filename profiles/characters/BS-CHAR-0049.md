@@ -1,36 +1,26 @@
 # Eva
 
 **ID:** BS-CHAR-0049  
-**Typ:** Figur / kulturhistorisk referens  
-**Katalogkoppling:** [Figurbibliotek](../../catalog/characters.csv)  
-**Status:** Forskningsprofil (inte publicerad illustration)  
+**Registerområde:** Fem myror är fler än fyra elefanter  
+**Registrerad typ:** performed_tv_persona  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Registeruppgifter (ej individuellt faktagranskade)
-- Namn: **Eva**
-- Universum/program: **Fem myror är fler än fyra elefanter**
-- Epokfält: **1970s**
-- Ursprungskategori: **svensk**
+## Faktaverifierade uppgifter (1)
+- **CLM-0030** Eva ingår bland huvudgestalterna i SVT:s Fem myror, som hade premiär 19 november 1973. [Källa SRC023](https://omoss.svt.se/arkiv/nyhetsarkiv/2023-11-17-fem-myror-ar-fler-an-fyra-elefanter-fyller-50.html) – exakt avgränsning: SVT 50th-anniversary body, lines 16-23 (Premiären avser programmet; inte personens debut)
 
-## Källspår
-- [SRC001 – SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) — verified_source_portal; ingång till vidare objektsökning, inte belägg för enskilda påståenden
-- [SRC010 – Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) — verified_source_portal; ingång till vidare objektsökning, inte belägg för enskilda påståenden
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Fördjupningsfält (att fylla med verifierad evidens)
-| Fält | Status |
-| --- | --- |
-| Alternativa namn och svenska benämningar | Ej verifierat |
-| Första belagda framträdande och kronologi | Ej verifierat |
-| Skapare, produktion, distribution | Ej verifierat |
-| Utseende, rekvisita, relationer, figurutveckling | Ej verifierat |
-| Svenska tv-/kulturkopplingar och generationsrelevans | Ej verifierat |
-| Kulturellt och illustrativt bildspråk | Analys återstår |
-| Upphov, porträtt- och distributionsrätt | Granskning krävs |
-| Objektbunden källa, citat/källställe, kontrolltidpunkt | Krävs |
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Förhållandet mellan figur, roll, ursprunglig serie och svensk sändning/dubbning.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-## Produktionsförslag – endast koncept
-- Avgränsad faktaruta eller historiskt quiz efter verifiering.
-- Tidsperiodsinspirerat **eget** motiv som inte kopierar skyddad figur eller porträtt.
-- Licensierad karaktärsillustration först efter dokumenterad rättighetsprövning.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-CHAR-0049.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Beslutsgate
-`research_candidate → source_checked → rights_checked → production_approved`. Inget godkännande att reproducera bilden/namnet som endorsement ges av denna post.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

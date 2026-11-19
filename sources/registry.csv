@@ -1,4 +1,4 @@
-source_id,title,source_tier,scope,url,verification_status
+
 "SRC001","SVT – Barn Öppet arkiv","primary_archive","sv_children_tv","https://www.svtplay.se/kategori/barn-oppet-arkiv","verified_source_portal"
 "SRC002","SVT – Anita och Televinken","primary_archive","televinken","https://www.svtplay.se/godnattstunden-med-anita-och-televinken","verified_entity_page"
 "SRC003","SVT – Tut med Televinken","primary_archive","televinken","https://www.svtplay.se/tut-med-televinken","verified_entity_page"
@@ -86,3 +86,6 @@ source_id,title,source_tier,scope,url,verification_status
 "SRC085","Objektsida: Otis Redding","official_biography","Otis Redding","https://rockhall.com/inductees/otis-redding/","web_discovered_2026-11-19"
 "SRC086","Objektsida: Diana Ross","official_biography","Diana Ross","https://rockhall.com/inductees/supremes/","web_discovered_2026-11-19"
 "SRC087","Objektsida: Mick Jagger","official_biography","Mick Jagger","https://rockhall.com/inductees/rolling-stones/","web_discovered_2026-11-19"
+"SRC088","Officiell Alfons- och bokhistorik","rights_holder","Alfons Åberg","https://www.alfons.se/om-alfons-aberg/","web_page_reviewed_2026-11-19"
+"SRC089","Astrid Lindgren – historien bakom Pippi","rights_holder","Pippi Långstrump","https://www.astridlindgren.com/gb-sv-se/karaktarerna/pippi-langstrump/historien-bakom-pippi","web_page_reviewed_2026-11-19"
+"SRC090","Skurts originalarkiv första TV3-program","firsthand_archive","Skurt","https://skurt.se/skurts-filmsida/","web_page_reviewed_2026-11-19"

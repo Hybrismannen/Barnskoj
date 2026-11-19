@@ -1,32 +1,26 @@
-# Gobo (Fraggle Rock)
+# Gobo
 
-**Register-ID:** BS-CHAR-0001  
-**Referensvärld:** Fraggle Rock  
-**Entitetstyp:** Fiktiv dockfigur  
-**Researchstatus:** source_checked_partial (endast nedanstående explicita uppgifter)  
-**Rättighetsstatus:** restricted_reference / not cleared
+**ID:** BS-CHAR-0001  
+**Registerområde:** Fraggle Rock  
+**Registrerad typ:** fictional_character  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Historik med belägg
-1983 är dokumenterat premiärår för Fraggle Rock; Gobo är en av de fem huvud-Fragglarna.
+## Faktaverifierade uppgifter (1)
+- **CLM-0001** Gobo förekommer i Jim Hensons officiella beskrivning av Fraggle Rock. [Källa SRC005](https://www.henson.com/fraggle-rock/) – exakt avgränsning: Henson original/reboot roster, lines 47-70
 
-## Figur, sammanhang och kulturrelevans
-Jim Henson beskriver Gobo som en relativt jordnära och praktiskt orienterad ledargestalt. Serien skildrar Fragglar, Doozers och Gorgs som samverkande grupper.
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Källor
-- SRC005: https://www.henson.com/fraggle-rock/
-- SRC021: https://www.henson.com/dance-your-cares-away-and-celebrate-25-years-of-the-jim-henson-companys-iconic-fraggle-rock/
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Förhållandet mellan figur, roll, ursprunglig serie och svensk sändning/dubbning.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-**Källkontroll:** 2026-11-19. Endast redovisade fakta är grundade. Upphov till samtliga versioner, exklusiva licensrättigheter, samtliga sändningsår och svenska röstlistor är inte fullständigt kartlagda.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-CHAR-0001.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Formidéer och produktionspotential
-En egen upptäckar-/grottmiljö eller separat licensierad Gobo-illustration. Figurens specifika form och utseende är inte fritt.
-
-Möjliga format: källverifierat triviaquiz, historiskt aktivitetsblad och separat rättighetsklarerat illustrerat material. Vuxennostalgisk bok kan knytas till programmets dokumenterade tidsepok utan att återge originalkaraktären.
-
-## Återstående fördjupning
-- Exakta utseendevarianter, upphovspersoner, svenska titlar och dokumenterad sändningshistorik
-- Karaktärsrelationer, arkivposter och bildmaterial med granskningsbar källa
-- Juridisk bedömning för planerad reproduktion eller kommersiell bokutgivning
-- Individuellt godkänd illustratorisk specifikation och provutskrift
-
-**Produktionsbeslut:** Väntar på rättighetsklarering. Källdokumentation är inte en bildlicens.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

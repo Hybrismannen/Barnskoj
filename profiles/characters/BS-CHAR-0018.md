@@ -1,35 +1,26 @@
 # Rosita
 
 **ID:** BS-CHAR-0018  
-**Typ:** Figur / kulturhistorisk referens  
-**Katalogkoppling:** [Figurbibliotek](../../catalog/characters.csv)  
-**Status:** Forskningsprofil (inte publicerad illustration)  
+**Registerområde:** Sesame Street  
+**Registrerad typ:** fictional_character  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Registeruppgifter (ej individuellt faktagranskade)
-- Namn: **Rosita**
-- Universum/program: **Sesame Street**
-- Epokfält: **1960s–2020s**
-- Ursprungskategori: **internationell**
+## Faktaverifierade uppgifter (1)
+- **CLM-0018** Rosita beskrivs som femårig och lekfull. [Källa SRC006](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) – exakt avgränsning: Sesame Workshop character directory, lines 220-222
 
-## Källspår
-- [SRC006 – Sesame Workshop – Characters](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) — verified_entity_page; relevant program-/figursammanhang är belagt, enskilda attribut återstår att verifiera
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Fördjupningsfält (att fylla med verifierad evidens)
-| Fält | Status |
-| --- | --- |
-| Alternativa namn och svenska benämningar | Ej verifierat |
-| Första belagda framträdande och kronologi | Ej verifierat |
-| Skapare, produktion, distribution | Ej verifierat |
-| Utseende, rekvisita, relationer, figurutveckling | Ej verifierat |
-| Svenska tv-/kulturkopplingar och generationsrelevans | Ej verifierat |
-| Kulturellt och illustrativt bildspråk | Analys återstår |
-| Upphov, porträtt- och distributionsrätt | Granskning krävs |
-| Objektbunden källa, citat/källställe, kontrolltidpunkt | Krävs |
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Förhållandet mellan figur, roll, ursprunglig serie och svensk sändning/dubbning.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-## Produktionsförslag – endast koncept
-- Avgränsad faktaruta eller historiskt quiz efter verifiering.
-- Tidsperiodsinspirerat **eget** motiv som inte kopierar skyddad figur eller porträtt.
-- Licensierad karaktärsillustration först efter dokumenterad rättighetsprövning.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-CHAR-0018.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Beslutsgate
-`research_candidate → source_checked → rights_checked → production_approved`. Inget godkännande att reproducera bilden/namnet som endorsement ges av denna post.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

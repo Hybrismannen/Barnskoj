@@ -1,35 +1,26 @@
 # Zlatan Ibrahimović
 
 **ID:** BS-PER-0052  
-**Typ:** Person eller grupp / kulturhistorisk referens  
-**Katalogkoppling:** [Kändisbibliotek](../../catalog/celebrities.csv)  
-**Status:** Forskningsprofil (inte publicerad illustration)  
+**Registerområde:** sport  
+**Registrerad typ:** celebrity  
+**Forskningsnivå:** Q2_partial_claim_verified  
+**Bildrättigheter:** HOLD / not cleared
 
-## Registeruppgifter (ej individuellt faktagranskade)
-- Namn: **Zlatan Ibrahimović**
-- Område: **sport**
-- Genre: **fotboll**
-- Registertyp: **celebrity**
+## Faktaverifierade uppgifter (1)
+- **CLM-0038** Svenska Fotbollförbundet publicerade 5 juni 2023 att Zlatan Ibrahimović avslutar spelarkarriären. [Källa SRC065](https://www.svenskfotboll.se/nyheter/landslag/2023/06/zlatan-slutar/) – exakt avgränsning: Official news dated 2023-06-05
 
-## Källspår
-- [SRC015 – FIFA – Legends](https://inside.fifa.com/en/organisation/fifa-legends) — verified_source_portal; ingång till vidare objektsökning, inte belägg för enskilda påståenden
+## Generationsrelevans och produktion
+Detta objekt kan användas som kulturhistorisk research och för källbelagda quizfrågor. Epoktaggarna visar **katalogassociation**, inte automatiskt exakt debutår eller svensk sändningsperiod. Prick-till-prick, mandala och färgläggningsformat är endast kreativa möjligheter och kräver en särskild rättighetsbedömning om skyddade figurer eller porträtt skulle återges.
 
-## Fördjupningsfält (att fylla med verifierad evidens)
-| Fält | Status |
-| --- | --- |
-| Alternativa namn och svenska benämningar | Ej verifierat |
-| Första belagda framträdande och kronologi | Ej verifierat |
-| Skapare, produktion, distribution | Ej verifierat |
-| Biografisk tidslinje, yrkesroll och viktiga prestationer | Ej verifierat |
-| Svenska tv-/kulturkopplingar och generationsrelevans | Ej verifierat |
-| Kulturellt och illustrativt bildspråk | Analys återstår |
-| Upphov, porträtt- och distributionsrätt | Granskning krävs |
-| Objektbunden källa, citat/källställe, kontrolltidpunkt | Krävs |
+## Återstående kvalitetsdjup
+- Flera oberoende primärkällor, namnvarianter och tydlig tidslinje.
+- Roller, verk, prestationer, historisk kontext och dokumenterade motstridigheter.
+- Identifiera bild-/porträtträtt, begränsningar och konkret licensförfrågan.
+- Redaktionell granskning och faktisk bild-/printtest för tänkt aktivitet.
 
-## Produktionsförslag – endast koncept
-- Avgränsad faktaruta eller historiskt quiz efter verifiering.
-- Tidsperiodsinspirerat **eget** motiv som inte kopierar skyddad figur eller porträtt.
-- Licensierat/rights-reviewed porträtt först efter dokumenterad rättighetsprövning.
+## Samband
+- [Källdossier](../../sources/entity-dossiers/BS-PER-0052.md)
+- [Källbelagda påståenden](../../evidence/claims.csv)
+- [Kvalitetsregister](../../quality/entity_quality.csv)
 
-## Beslutsgate
-`research_candidate → source_checked → rights_checked → production_approved`. Inget godkännande att reproducera bilden/namnet som endorsement ges av denna post.
+**Verifieringsdatum:** 2026-11-19. Status gäller bara ovanstående påståenden.

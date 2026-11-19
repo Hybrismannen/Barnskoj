@@ -16,6 +16,15 @@
 - [ ] Verifiera kulturreferenser och rättighetsstatus per bokmotiv
 - [ ] Testa vuxenlayout: A4/A5, bindningsmarginal och nummerläsbarhet
 
+## FAS 0C – Taggsystem och kvalitetsdjup
+- [x] Taxonomi: 117 taggar och 2 813 entitetskopplingar
+- [x] 55 universumsprofiler, alias och identitetsregister
+- [x] 430 synkroniserade källdossierer och QA-klassning
+- [x] 39 atomära faktabelägg från 13 kontrollgranskade källsidor
+- [x] GitHub Actions och katalogvalidering
+- [ ] Objektsspecifik sourcing för 154 Q0 och 240 Q1
+- [ ] Komplett Q3-djupgranskning av prioriterade figurer
+
 ## FAS 1 – Utskrivbar MVP
 - [ ] Producera 10 originalmotiv prick-till-prick med facit
 - [ ] Kontrollera punktnummer, linjeföring och tryck

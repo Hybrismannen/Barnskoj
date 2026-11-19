@@ -44,13 +44,21 @@ Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtre
 
 ## Referensbibliotek och källor
 - [430 individuella fördjupningsregister](catalog/README.md) — 246 figurer och 184 personer/grupper, alla med egna länkade profiler
-- [Sourcing- och källregister](sources/registry.csv) — 87 dokumenterade källposter
+- [Sourcing- och källregister](sources/registry.csv) — 90 registrerade källposter
 - [Registerrevision och begränsningar](catalog/REGISTRY_AUDIT.md)
 
-Fördjupningsregistren byggs stegvis. Det finns **fem profiler med inledande objektspecifika belägg**; resten är ännu researchkandidater. Ingen profil innebär rätt till ett fotograferat eller illustrerat originalverk.
+Fördjupningsregistren byggs stegvis. 36 entiteter har avgränsade faktabelägg (Q2), 240 har ännu endast källspår (Q1) och 154 saknar källa (Q0); ingen är fullständigt djupgranskad (Q3). Ingen profil innebär rätt till ett fotograferat eller illustrerat originalverk.
 
 ### Individuella källdossierer
 Alla 430 enheter har nu både [egen fördjupningsprofil](profiles/) och [eget källdossier](sources/entity-dossiers/), länkade via `profile_path` och `source_dossier_path` i CSV. [Källtäckningsrapport](sources/COVERAGE_DASHBOARD.md) visar 23 direktkopplade objektsidor, 63 program-/världssidor, 190 domän-/kontextkopplingar och **154 poster utan käll-URL**. Källkoppling är inte liktydigt med godkänd faktagranskning eller bildrätt.
+
+## Taggsystem och evidens
+- [117 taggar och 2 813 kopplingar](tags/README.md)
+- [55 universum](catalog/universes.csv)
+- [Identitet och alias](catalog/identity_registry.csv)
+- [39 kontrollerade faktabelägg](evidence/claims.csv)
+- [Aktuell kvalitetsrevision](quality/COVERAGE.md)
+- [Automatisk CI-validering](.github/workflows/catalog-validation.yml)
 
 ## För utveckling
 

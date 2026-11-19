@@ -1,12 +1,15 @@
 # Källregister och källprövning
 
 ## Genomförd baslinjesourcing 2026-11-19
-**87 registrerade källadresser** från SVT, upphovs-/produktionsorganisationer, museer, musik- och idrottsinstitutioner samt rättighetsvägledning. Se [registry.csv](registry.csv).
+**90 registrerade källadresser** från SVT, upphovs-/produktionsorganisationer, museer, musik- och idrottsinstitutioner samt rättighetsvägledning. Se [registry.csv](registry.csv).
 
 **Viktigt:** En tillgänglig institutionell portal är inte en individuellt verifierad biografi. Huvuddelen av profilerna har därför `research_candidate` tills respektive post verifierats med **en objektspecifik källa, belagd uppgift och granskningsdatum**. Programspecifika källor kan belägga ett universum men verifierar inte automatiskt alla figurers detaljer. `source_ids` i katalogen är källspår, inte genomförd individuell källgranskning.
 
 ## Entitetsdossierer och täckning
-Varje katalograd har en `source_dossier_path` med direktlänkar till [källdossiererna](entity-dossiers/). Detaljer i [täckningsrapporten](COVERAGE_DASHBOARD.md): 430 registrerade entiteter, varav 154 ännu utan registrerad URL. Källor med endast domänbredd får inte presenteras som individuellt veriferade.
+Varje katalograd har en `source_dossier_path` med direktlänkar till [källdossiererna](entity-dossiers/). Detaljer i [kvalitetsrapporten](../quality/COVERAGE.md): 430 registrerade entiteter, varav 154 ännu utan registrerad URL. Källor med endast domänbredd får inte presenteras som individuellt veriferade.
+
+## Kontrollerad evidens
+[13 granskade sidor](../evidence/source_checks.csv) bär [39 separata kontrollerade påståenden](../evidence/claims.csv). En källlänk är inte detsamma som objektspecifik verifiering.
 
 ## Källhierarki
 A: officiell originalkälla, programarkiv, rättighetsinnehavare, artist-/klubb-/förbundsprofil, museiföremåls-ID.  

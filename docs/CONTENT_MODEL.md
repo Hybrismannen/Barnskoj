@@ -28,6 +28,13 @@ Varje aktivitet får en egen mapp med metadata, tillgångar och eventuell instru
 | review_status | idea | idea, prototype, tested, published |
 | version | 0.1.0 | Semantisk innehållsversion |
 
+## Entitets-, tagg- och källkoppling
+- Katalogposter har `canonical_entity_id`, `identity_status`, `tag_ids` och för figurer `universe_id`.
+- Taggarna definieras i `tags/taxonomy.csv` och tilldelningarna i `tags/assignments.csv`.
+- Epoktaggar avser ärvda *associationer*, inte verifierade debut- eller sändningsår.
+- Faktabelägg lagras separat i `evidence/claims.csv` och kvalitetsnivå i `quality/entity_quality.csv`.
+- Bild- och porträtträttigheter är en separat produktionsgrind.
+
 ## Bok- och vuxenutgåvor
 - `audience` kan vara `adult` eller `intergenerational`.
 - `book_collection_id`, `spread_order`, `print_trim_size`, `binding_margin_mm`, `complexity`, `generation_context`.

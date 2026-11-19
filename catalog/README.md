@@ -14,10 +14,17 @@ Här samlas researchposter om **fiktiva figurer/programvärldar** och **verkliga
 En referens kan förekomma i flera aktiviteter utan att vi duplicerar grunddata. Exakta namn används för sökbar research. För produktion krävs rättighetsprövning per konkret asset och användning. Alternativet är att skapa ett självständigt originalmotiv utan förväxlingsrisk.
 
 ## Individuella fördjupningsregister
-Varje CSV-rad har `profile_path` med direkt länk till en Markdownfil under [profiles/characters](../profiles/characters/) eller [profiles/people](../profiles/people/). Länkarna är kontrollerade mot repository-trädet (430/430 matchar). Fem figurer har inledande objektspecifik källresearch; övriga är under utveckling. Se [källregistret](../sources/registry.csv) och [biblioteksrevisionen](REGISTRY_AUDIT.md).
+Varje CSV-rad har `profile_path` med direkt länk till en Markdownfil under [profiles/characters](../profiles/characters/) eller [profiles/people](../profiles/people/). Länkarna är kontrollerade mot repository-trädet (430/430 matchar). 36 entiteter har minst ett kontrollerat faktapåstående; övriga behöver kompletterande sourcing. Se [källregistret](../sources/registry.csv) och [biblioteksrevisionen](REGISTRY_AUDIT.md).
 
 ## Källdossierer
 Nu finns även `source_dossier_path` i båda CSV-katalogerna. [430 individuella källdossierer](../sources/entity-dossiers/) är länkade till respektive profil och listar registrerade source-ID och källornas begränsningar. Se [täckningsmätningen](../sources/COVERAGE_DASHBOARD.md) för verkliga luckor.
+
+## Katalogens referenssystem
+- [Taggar och facetter](../tags/README.md)
+- [55 universumsprofiler](universes.csv)
+- [Identitets- och aliasregister](identity_registry.csv)
+- [39 atomära belägg](../evidence/claims.csv)
+- [430 individuella kvalitetsgrader](../quality/entity_quality.csv)
 
 ## Kvalitetsstatus
 `research_candidate → source_checked → rights_checked → usable_reference`. En referenspost som inte klarat detta flöde får inte publiceras som en godkänd bildresurs.

@@ -42,6 +42,13 @@ Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtre
 - **Lagligt att dela:** Originalmaterial eller tydligt licensierat material; kända varumärken och karaktärer används inte som frikort för kopiering.
 - **Verifierbar kvalitet:** Varje aktivitet testas före publicering.
 
+## Referensbibliotek och källor
+- [430 individuella fördjupningsregister](catalog/README.md) — 246 figurer och 184 personer/grupper, alla med egna länkade profiler
+- [Sourcing- och källregister](sources/registry.csv) — 25 inledande källposter
+- [Registerrevision och begränsningar](catalog/REGISTRY_AUDIT.md)
+
+Fördjupningsregistren byggs stegvis. Det finns **fem profiler med inledande objektspecifika belägg**; resten är ännu researchkandidater. Ingen profil innebär rätt till ett fotograferat eller illustrerat originalverk.
+
 ## För utveckling
 
 - [Produktvision och mål](docs/PRODUCT.md)

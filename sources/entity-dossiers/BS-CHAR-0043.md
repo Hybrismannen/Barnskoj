@@ -1,29 +1,30 @@
 # Källdossier – Mållgan
 
-**Entitets-ID:** BS-CHAR-0043  
-**Typ:** character  
-**Källnivå:** `world_or_program_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0043](../../profiles/characters/BS-CHAR-0043.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0043  
+**Kanonisk referens:** BS-CHAR-0043 (canonical)  
+**QA-grad:** Q1_source_leads  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (4)
-- **SRC001** — [SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) · typ `primary_archive` · scope `sv_children_tv` · registrerad kontroll `verified_source_portal`
-- **SRC010** — [Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) · typ `bibliography` · scope `swedish_broadcast` · registrerad kontroll `verified_source_portal`
-- **SRC036** — [SVT – Alfons Åberg](https://www.svtplay.se/alfons-aberg) · typ `primary_entity` · scope `Alfons Åberg` · registrerad kontroll `web_discovered_2026-11-19`
-- **SRC038** — [Alfons – officiella karaktärer](https://www.alfons.se/om-alfons-aberg/karaktarer/) · typ `rights_holder` · scope `Alfons Åberg` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0043.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+## Källförteckning – 4 länkade referenser
+- SRC001 – OGILTIG KÄLLREFERENS
+- SRC010 – OGILTIG KÄLLREFERENS
+- SRC036 – OGILTIG KÄLLREFERENS
+- SRC038 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 0
+- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- SOURCE_LINK_ONLY
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

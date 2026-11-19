@@ -1,28 +1,28 @@
 # Källdossier – Kobe Bryant
 
-**Entitets-ID:** BS-PER-0064  
-**Typ:** person  
-**Källnivå:** `domain_or_context`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-PER-0064](../../profiles/people/BS-PER-0064.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-PER-0064  
+**Kanonisk referens:** BS-PER-0064 (canonical)  
+**QA-grad:** Q1_source_leads  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (3)
-- **SRC016** — [IOC – Athletes](https://www.olympics.com/ioc/athletes) · typ `institutional_sports` · scope `olympic_sport` · registrerad kontroll `verified_source_portal`
-- **SRC017** — [Olympedia – database](https://www.olympedia.org/) · typ `secondary_database` · scope `olympic_sport` · registrerad kontroll `verified_source_portal`
-- **SRC067** — [NBA – historiska legender](https://www.nba.com/news/history-nba-legends) · typ `institutional_sports` · scope `basketball` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/people/BS-PER-0064.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna är områdes-, period- eller kontextingångar; de får inte användas som direkta belägg för individuella påståenden.
+## Källförteckning – 3 länkade referenser
+- SRC016 – OGILTIG KÄLLREFERENS
+- SRC017 – OGILTIG KÄLLREFERENS
+- SRC067 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 0
+- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- SOURCE_LINK_ONLY
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

@@ -1,28 +1,27 @@
 # Källdossier – Zlatan Ibrahimović
 
-**Entitets-ID:** BS-PER-0052  
-**Typ:** person  
-**Källnivå:** `direct_entity_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-PER-0052](../../profiles/people/BS-PER-0052.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-PER-0052  
+**Kanonisk referens:** BS-PER-0052 (canonical)  
+**QA-grad:** Q2_partial_claim_verified  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (3)
-- **SRC015** — [FIFA – Legends](https://inside.fifa.com/en/organisation/fifa-legends) · typ `institutional_sports` · scope `football` · registrerad kontroll `verified_source_portal`
-- **SRC064** — [SvFF – Landslagshistorik](https://www.svenskfotboll.se/landslag/herr/historik-herr) · typ `institutional_sports` · scope `football` · registrerad kontroll `web_discovered_2026-11-19`
-- **SRC065** — [SvFF – Zlatan Ibrahimović](https://www.svenskfotboll.se/nyheter/landslag/2023/06/zlatan-slutar/) · typ `official_biography` · scope `Zlatan Ibrahimović` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/people/BS-PER-0052.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Minst en källa är registrerad direkt mot namnet. Kontrollera vilka exakta påståenden på sidan som styrks, samt eventuell sammanblandning med namnlikar.
+## Källförteckning – 3 länkade referenser
+- SRC015 – OGILTIG KÄLLREFERENS
+- SRC064 – OGILTIG KÄLLREFERENS
+- SRC065 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 1
+- **CLM-0038** Svenska Fotbollförbundet publicerade 5 juni 2023 att Zlatan Ibrahimović avslutar spelarkarriären. [SRC065](https://www.svenskfotboll.se/nyheter/landslag/2023/06/zlatan-slutar/) – Official news dated 2023-06-05.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

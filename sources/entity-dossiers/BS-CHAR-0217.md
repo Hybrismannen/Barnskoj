@@ -1,26 +1,27 @@
 # Källdossier – Branka
 
-**Entitets-ID:** BS-CHAR-0217  
-**Typ:** character  
-**Källnivå:** `domain_or_context`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0217](../../profiles/characters/BS-CHAR-0217.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0217  
+**Kanonisk referens:** BS-CHAR-0217 (canonical)  
+**QA-grad:** Q1_source_leads  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (1)
-- **SRC004** — [SVT – Björnes magasin](https://www.svtplay.se/bjornes-magasin) · typ `primary_archive` · scope `bjornes-magasin` · registrerad kontroll `verified_entity_page`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0217.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna är områdes-, period- eller kontextingångar; de får inte användas som direkta belägg för individuella påståenden.
+## Källförteckning – 1 länkade referenser
+- SRC004 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 0
+- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- SOURCE_LINK_ONLY
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

@@ -1,27 +1,28 @@
 # Källdossier – Bluey
 
-**Entitets-ID:** BS-CHAR-0091  
-**Typ:** character  
-**Källnivå:** `world_or_program_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0091](../../profiles/characters/BS-CHAR-0091.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0091  
+**Kanonisk referens:** BS-CHAR-0091 (canonical)  
+**QA-grad:** Q1_source_leads  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (2)
-- **SRC007** — [Bluey – Characters](https://www.bluey.tv/characters/) · typ `rights_holder` · scope `bluey` · registrerad kontroll `verified_entity_page`
-- **SRC042** — [Bluey – Bluey själv](https://www.bluey.tv/characters/bluey/) · typ `rights_holder` · scope `Bluey` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0091.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+## Källförteckning – 2 länkade referenser
+- SRC007 – OGILTIG KÄLLREFERENS
+- SRC042 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 0
+- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- SOURCE_LINK_ONLY
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

@@ -1,28 +1,28 @@
 # Källdossier – Ernie
 
-**Entitets-ID:** BS-CHAR-0014  
-**Typ:** character  
-**Källnivå:** `world_or_program_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0014](../../profiles/characters/BS-CHAR-0014.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0014  
+**Kanonisk referens:** BS-CHAR-0014 (canonical)  
+**QA-grad:** Q2_partial_claim_verified  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (3)
-- **SRC006** — [Sesame Workshop – Characters](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) · typ `rights_holder` · scope `sesame-street` · registrerad kontroll `verified_entity_page`
-- **SRC040** — [Sesame Workshop – historia](https://sesameworkshop.org/about-us/mission-and-history/) · typ `rights_holder` · scope `Sesame Street` · registrerad kontroll `web_discovered_2026-11-19`
-- **SRC041** — [Sesame Workshop – 50 years](https://sesameworkshop.org/about-us/mission-and-history/50-years-of-impact/) · typ `rights_holder` · scope `Sesame Street` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0014.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+## Källförteckning – 3 länkade referenser
+- SRC006 – OGILTIG KÄLLREFERENS
+- SRC040 – OGILTIG KÄLLREFERENS
+- SRC041 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 1
+- **CLM-0014** Ernie spelar ofta små spratt med Bert. [SRC006](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) – Sesame Workshop character directory, lines 220-222.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

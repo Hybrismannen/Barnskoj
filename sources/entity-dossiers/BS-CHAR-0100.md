@@ -1,26 +1,27 @@
 # Källdossier – My Melody
 
-**Entitets-ID:** BS-CHAR-0100  
-**Typ:** character  
-**Källnivå:** `world_or_program_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0100](../../profiles/characters/BS-CHAR-0100.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0100  
+**Kanonisk referens:** BS-CHAR-0100 (canonical)  
+**QA-grad:** Q1_source_leads  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (1)
-- **SRC009** — [Sanrio – Characters](https://www.sanrio.co.jp/) · typ `rights_holder` · scope `sanrio` · registrerad kontroll `verified_source_portal`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0100.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+## Källförteckning – 1 länkade referenser
+- SRC009 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 0
+- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- SOURCE_LINK_ONLY
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

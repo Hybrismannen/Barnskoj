@@ -1,27 +1,30 @@
 # Källdossier – Skurt
 
-**Entitets-ID:** BS-CHAR-0021  
-**Typ:** character  
-**Källnivå:** `domain_or_context`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0021](../../profiles/characters/BS-CHAR-0021.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0021  
+**Kanonisk referens:** BS-CHAR-0021 (canonical)  
+**QA-grad:** Q2_partial_claim_verified  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (2)
-- **SRC001** — [SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) · typ `primary_archive` · scope `sv_children_tv` · registrerad kontroll `verified_source_portal`
-- **SRC010** — [Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) · typ `bibliography` · scope `swedish_broadcast` · registrerad kontroll `verified_source_portal`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0021.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna är områdes-, period- eller kontextingångar; de får inte användas som direkta belägg för individuella påståenden.
+## Källförteckning – 4 länkade referenser
+- SRC001 – OGILTIG KÄLLREFERENS
+- SRC010 – OGILTIG KÄLLREFERENS
+- SRC024 – OGILTIG KÄLLREFERENS
+- SRC090 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 2
+- **CLM-0034** Skurt och Ingamay Hörnberg började synas på TV3 år 1988. [SRC024](https://www.svd.se/a/4dzj4V/skurts-mamma-om-aren-pa-tv3) – SvD interview, debut summary.
+- **CLM-0035** Skurts eget arkiv beskriver ett första TV3-program från 1988. [SRC090](https://skurt.se/skurts-filmsida/) – Filmsida first recording caption.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

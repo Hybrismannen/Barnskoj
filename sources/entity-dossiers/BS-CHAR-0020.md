@@ -1,28 +1,29 @@
 # Källdossier – Anita Lindman
 
-**Entitets-ID:** BS-CHAR-0020  
-**Typ:** character  
-**Källnivå:** `world_or_program_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0020](../../profiles/characters/BS-CHAR-0020.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0020  
+**Kanonisk referens:** BS-CHAR-0020 (canonical)  
+**QA-grad:** Q2_partial_claim_verified  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (3)
-- **SRC002** — [SVT – Anita och Televinken](https://www.svtplay.se/godnattstunden-med-anita-och-televinken) · typ `primary_archive` · scope `televinken` · registrerad kontroll `verified_entity_page`
-- **SRC003** — [SVT – Tut med Televinken](https://www.svtplay.se/tut-med-televinken) · typ `primary_archive` · scope `televinken` · registrerad kontroll `verified_entity_page`
-- **SRC052** — [SVT – Televinken avsnitt](https://www.svtplay.se/video/eQEX42e/godnattstunden-med-anita-och-televinken/avsnitt-1) · typ `primary_entity` · scope `Anita och Televinken` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0020.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+## Källförteckning – 3 länkade referenser
+- SRC002 – OGILTIG KÄLLREFERENS
+- SRC003 – OGILTIG KÄLLREFERENS
+- SRC052 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 1
+- **CLM-0033** Anita Lindman medverkar i Anita och Televinken-avsnitt från 1968. [SRC002](https://www.svtplay.se/godnattstunden-med-anita-och-televinken) – SVT 1968 episode listing.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- ERA_RANGE_NOT_DEBUT_YEAR
+- REAL_PERSON_IN_CHAR_TABLE
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

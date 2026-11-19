@@ -1,28 +1,30 @@
 # Källdossier – Magnus
 
-**Entitets-ID:** BS-CHAR-0047  
-**Typ:** character  
-**Källnivå:** `world_or_program_page`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0047](../../profiles/characters/BS-CHAR-0047.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0047  
+**Kanonisk referens:** BS-CHAR-0047 (canonical)  
+**QA-grad:** Q2_partial_claim_verified  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (3)
-- **SRC001** — [SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) · typ `primary_archive` · scope `sv_children_tv` · registrerad kontroll `verified_source_portal`
-- **SRC010** — [Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) · typ `bibliography` · scope `swedish_broadcast` · registrerad kontroll `verified_source_portal`
-- **SRC051** — [SVT – Magnus, Brasse och Eva (avsnitt)](https://www.svtplay.se/video/jv7grmK/fem-myror-ar-fler-an-fyra-elefanter-svt-barn/avsnitt-1) · typ `primary_entity` · scope `Fem myror är fler än fyra elefanter` · registrerad kontroll `web_discovered_2026-11-19`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0047.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+## Källförteckning – 4 länkade referenser
+- SRC001 – OGILTIG KÄLLREFERENS
+- SRC010 – OGILTIG KÄLLREFERENS
+- SRC051 – OGILTIG KÄLLREFERENS
+- SRC023 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 1
+- **CLM-0028** Magnus ingår bland huvudgestalterna i SVT:s Fem myror, som hade premiär 19 november 1973. [SRC023](https://omoss.svt.se/arkiv/nyhetsarkiv/2023-11-17-fem-myror-ar-fler-an-fyra-elefanter-fyller-50.html) – SVT 50th-anniversary body, lines 16-23.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- ERA_RANGE_NOT_DEBUT_YEAR
+- PERFORMER_PERSONA_SPLIT_REQUIRED
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

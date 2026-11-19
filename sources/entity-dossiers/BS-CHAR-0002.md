@@ -1,27 +1,27 @@
 # Källdossier – Mokey
 
-**Entitets-ID:** BS-CHAR-0002  
-**Typ:** character  
-**Källnivå:** `domain_or_context`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0002](../../profiles/characters/BS-CHAR-0002.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0002  
+**Kanonisk referens:** BS-CHAR-0002 (canonical)  
+**QA-grad:** Q2_partial_claim_verified  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (2)
-- **SRC005** — [Jim Henson Company – Fraggle Rock](https://www.henson.com/fraggle-rock/) · typ `rights_holder` · scope `fraggle-rock` · registrerad kontroll `verified_entity_page`
-- **SRC021** — [Jim Henson – 25 years Fraggle Rock](https://www.henson.com/dance-your-cares-away-and-celebrate-25-years-of-the-jim-henson-companys-iconic-fraggle-rock/) · typ `rights_holder` · scope `fraggle-rock` · registrerad kontroll `verified_entity_page`
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0002.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-Källorna är områdes-, period- eller kontextingångar; de får inte användas som direkta belägg för individuella påståenden.
+## Källförteckning – 2 länkade referenser
+- SRC005 – OGILTIG KÄLLREFERENS
+- SRC021 – OGILTIG KÄLLREFERENS
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 1
+- **CLM-0002** Mokey förekommer i Jim Hensons officiella beskrivning av Fraggle Rock. [SRC005](https://www.henson.com/fraggle-rock/) – Henson original/reboot roster, lines 47-70.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- DANGLING_SOURCE_ID
+- ERA_RANGE_NOT_DEBUT_YEAR
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

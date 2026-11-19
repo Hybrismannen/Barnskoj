@@ -1,26 +1,27 @@
 # Källdossier – Knattarna
 
-**Entitets-ID:** BS-CHAR-0227  
-**Typ:** character  
-**Källnivå:** `none`  
-**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
-**Senast källinventerat:** 2026-11-19  
-**Fördjupningsprofil:** [BS-CHAR-0227](../../profiles/characters/BS-CHAR-0227.md)  
-**Källregister:** [registry.csv](../registry.csv)
+**Entitet:** BS-CHAR-0227  
+**Kanonisk referens:** BS-CHAR-0227 (canonical)  
+**QA-grad:** Q0_no_source  
+**Faktagranskning:** endast specificerade claims nedan  
+**Bildrättigheter:** HOLD  
+**Reviderad:** 2026-11-19
 
-## Registrerade källor (0)
-- **SAKNAS:** Ingen käll-URL är ännu kopplad till denna entitet. Sök primärkälla eller verifierat katalogobjekt innan biografiska fakta tillförs.
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0227.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
 
-## Källkritisk begränsning
-En oberoende källresearch behöver påbörjas för denna post.
+## Källförteckning – 0 länkade referenser
+- Inga. Sourcing måste ske från objektspecifika originalkällor.
 
-## Obligatorisk granskningsmatris
-| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
-| --- | --- | --- | --- |
-| Entitetens identifiering och alias | TBD | Nej | HOLD |
-| Historik/tidiga framträdanden | TBD | Nej | HOLD |
-| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
-| Svensk relevans och epokassociation | TBD | Nej | HOLD |
-| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+## Atomära verifierade sakpåståenden – 0
+- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
 
-**Ingen bildlicens har härledts av dessa URL:er.**
+## Brister och spärrar
+- NO_SOURCE_URL
+- ERA_RANGE_NOT_DEBUT_YEAR
+- COLLECTIVE_RECORD
+- RIGHTS_NOT_GRANTED
+- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
+- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
+- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+
+**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**

@@ -1,0 +1,8 @@
+"alias_id","name_or_alias","entity_id","canonical_entity_id","relation","confidence_status"
+"ALI-001","Mondo Duplantis","BS-PER-0091","BS-PER-0088","same_person","known_alias_needs_entity_source"
+"ALI-002","Armand Duplantis","BS-PER-0088","BS-PER-0088","canonical_name","catalogue_primary"
+"ALI-003","Beppe Wolgers","BS-CHAR-0208","BS-PER-0183","cross_catalog_duplicate","same_person_catalogue"
+"ALI-004","Uncle Travelling Matt","BS-CHAR-0006","BS-CHAR-0006","spelling_variant","official_henson_spelling"
+"ALI-005","Pippi Långstrump","BS-CHAR-0036","BS-CHAR-0036","full_name","official_lindgren_page"
+"ALI-006","Red / Fraggle Rock","BS-CHAR-0005","BS-CHAR-0005","disambiguated_name","not_same_as_angry_birds_red"
+"ALI-007","Red / Angry Birds","BS-CHAR-0120","BS-CHAR-0120","disambiguated_name","not_same_as_fraggle_red"

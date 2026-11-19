@@ -9,6 +9,13 @@
 - [ ] Fastslagen grafisk profil och A4-mall
 - [ ] Besluta licens för egenproducerat material
 
+## FAS 0B – Generationer och vuxenutgåvor
+- [x] Utvidga epoker till 1950-, 1960- och 1970-tal
+- [x] Skilj `era` och `audience` i innehållsmodell
+- [x] Skapa redaktionell brief för vuxna nostalgiböcker och mandala
+- [ ] Verifiera kulturreferenser och rättighetsstatus per bokmotiv
+- [ ] Testa vuxenlayout: A4/A5, bindningsmarginal och nummerläsbarhet
+
 ## FAS 1 – Utskrivbar MVP
 - [ ] Producera 10 originalmotiv prick-till-prick med facit
 - [ ] Kontrollera punktnummer, linjeföring och tryck
@@ -30,8 +37,13 @@
 - [ ] Bygg mobilanpassad och tangentbordstillgänglig frontend om tester stöder det
 - [ ] Behåll utskrivbart format för aktiviteter som fungerar bäst analogt
 
+## FAS 3B – Vuxenpilot
+- [ ] Ta fram en vuxenbok med en sammanhängande barndomsepok (15–30 originalmotiv)
+- [ ] Producera ett par fristående retroinspirerade mandalaserier
+- [ ] Testa visuellt uttryck och motivigenkänning med vuxna användare
+
 ## FAS 4 – Fortsatt utveckling
-- [ ] Fler generationsteman 1980–2025 och framåt
+- [ ] Fler generationsteman 1950–2025 och framåt
 - [ ] Kuraterade temapaket för lov, kalas och resor
 - [ ] Fler språk och behovsanpassningar
 - [ ] Underhållsrutin för rättigheter, kvalitet och innehåll

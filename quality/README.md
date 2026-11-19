@@ -1,5 +1,7 @@
 # Barnskoj – kvalitets- och publiceringsgrindar
 
+**Ny gemensam omfattning:** 485 entiteter, inklusive 55 universum. [Gemensam paritetsmatris](entity_parity.csv) och [faktisk forskningsparitet](RESEARCH_PARITY.md). Tidigare `entity_quality.csv` gäller 430 figur- och personposter men inte universumen; vid samlad analys ska `catalog/entities.csv` användas.
+
 ## Forskningsnivå
 `Q0_no_source → Q1_source_leads → Q2_partial_claim_verified → Q3_deep_verified`
 

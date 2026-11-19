@@ -2,6 +2,9 @@
 
 **Omfattning:** 430 figur/personposter, 55 universum, 117 definierade taggar och 2813 dokumenterade taggkopplingar. **Taggarna ärvda/beräknade från befintliga katalogfält; de är inte individuellt faktagranskade.**
 
+## Standardiserad täckning 2.0
+Alla 485 entiteter måste ha **14 av 14 obligatoriska fasetter** (inklusive `unassigned`, `unverified` och `not-applicable` där detta är den sanningsenliga statusen). Idag finns 134 taggdefinitioner och 8 086 relationer. Verifiering på fältnivå dokumenteras separat i [attributregistret](../evidence/attribute_evidence.csv). Denna regel kontrolleras av [paritetsvalidatorn](../scripts/validate_parity.py).
+
 ## Fasetter (se [taxonomin](taxonomy.csv))
 - `type:*` identifierar fiktiv figur, verklig person, grupp eller spelad tv-roll.
 - `world:BS-WORLD-xxx` är stabil koppling till en [universumsprofil](../catalog/universes.csv).

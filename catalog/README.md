@@ -2,6 +2,9 @@
 
 Här samlas researchposter om **fiktiva figurer/programvärldar** och **verkliga kända personer**. Katalogen är ett metadata- och inspirationsregister, **inte ett bibliotek av bilder som får återanvändas**.
 
+## Gemensam standard
+[Alla 485 entiteter](entities.csv), inklusive 55 [universum](universes.csv), har samma 17 attribut och 14 obligatoriska taggdimensioner. Se [paritetsstandard](../docs/PARITY_STANDARD.md) och [forskningsgap](../quality/RESEARCH_PARITY.md). Äldre separata listor finns kvar för kategoriserad sökning och är synkroniserade mot det kanoniska registret.
+
 ## Register
 - [Fiktiva figurer och världar](characters.csv): 246 poster från en bredare uppsättning franchises/programvärldar; alla poster har status `research_candidate`.
 - [Verkliga kändisar](celebrities.csv): 184 poster från musik, sport, film/tv och andra profiler; alla poster har status `research_candidate`.

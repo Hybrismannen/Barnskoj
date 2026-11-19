@@ -60,6 +60,12 @@ Alla 430 entiteter har [en fördjupningsprofil](profiles/) och [ett källdossier
 - [Aktuell kvalitetsrevision](quality/COVERAGE.md)
 - [Automatisk CI-validering](.github/workflows/catalog-validation.yml)
 
+## Paritetsstandard för samtliga entiteter
+
+**485 objekt** (inklusive 55 programvärldar) använder samma 17 attribut, 14 obligatoriska taggdimensioner och samma fältspecifika evidensstatus. Se [gemensam katalog](catalog/entities.csv), [standard för verifierbarhet](docs/PARITY_STANDARD.md) och [individuella datakort](records/).
+
+**Strukturell paritet är PASS; faktisk forskningsparitet är fortfarande BLOCKED.** Q0: 191 objekt utan källa, Q1: 257 med enbart källspår, Q2: 37 med något faktabelägg, Q3: 0. [Forskningsskulden och likvärdiga krav](quality/RESEARCH_PARITY.md) är explicit dokumenterade.
+
 ## För utveckling
 
 - [Produktvision och mål](docs/PRODUCT.md)

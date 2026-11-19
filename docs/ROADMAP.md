@@ -25,6 +25,15 @@
 - [ ] Objektsspecifik sourcing för 154 Q0 och 240 Q1
 - [ ] Komplett Q3-djupgranskning av prioriterade figurer
 
+## FAS 0D – Dataparitet för alla entiteter
+- [x] 485 basprofiler, 17 obligatoriska attribut och 14 obligatoriska taggdimensioner
+- [x] Fältspecifik evidens, samma forskningsgrindar och 55 universumsdossierer
+- [x] CI-test för identiteter, taggar, källor och paritet
+- [ ] Hitta primärkällor för 191 Q0-entiteter
+- [ ] Källgranska påståenden för 257 Q1-entiteter
+- [ ] Fullständig Q3-verifiering för samtliga 485 objekt
+- [ ] Objektspecifik upphovs- och rättighetsgranskning inför bokproduktion
+
 ## FAS 1 – Utskrivbar MVP
 - [ ] Producera 10 originalmotiv prick-till-prick med facit
 - [ ] Kontrollera punktnummer, linjeföring och tryck

@@ -27,8 +27,8 @@ Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtre
 
 - [Generationsbiblioteket 1950–2025](catalog/decades/README.md)
 - [Vuxenformat: nostalgiska prick-till-prick och mandalaböcker](library/adult-nostalgia/README.md)
-- [Figurbibliotek, 159 researchposter](catalog/characters.csv)
-- [Kändisbibliotek, 111 researchposter](catalog/celebrities.csv)
+- [Figurbibliotek, 246 researchposter](catalog/characters.csv)
+- [Kändisbibliotek, 184 researchposter](catalog/celebrities.csv)
 - [Kulturarv och barnprogram](catalog/heritage.md)
 - [Rättighetspolicy](docs/RIGHTS.md)
 
@@ -44,10 +44,13 @@ Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtre
 
 ## Referensbibliotek och källor
 - [430 individuella fördjupningsregister](catalog/README.md) — 246 figurer och 184 personer/grupper, alla med egna länkade profiler
-- [Sourcing- och källregister](sources/registry.csv) — 25 inledande källposter
+- [Sourcing- och källregister](sources/registry.csv) — 87 dokumenterade källposter
 - [Registerrevision och begränsningar](catalog/REGISTRY_AUDIT.md)
 
 Fördjupningsregistren byggs stegvis. Det finns **fem profiler med inledande objektspecifika belägg**; resten är ännu researchkandidater. Ingen profil innebär rätt till ett fotograferat eller illustrerat originalverk.
+
+### Individuella källdossierer
+Alla 430 enheter har nu både [egen fördjupningsprofil](profiles/) och [eget källdossier](sources/entity-dossiers/), länkade via `profile_path` och `source_dossier_path` i CSV. [Källtäckningsrapport](sources/COVERAGE_DASHBOARD.md) visar 23 direktkopplade objektsidor, 63 program-/världssidor, 190 domän-/kontextkopplingar och **154 poster utan käll-URL**. Källkoppling är inte liktydigt med godkänd faktagranskning eller bildrätt.
 
 ## För utveckling
 

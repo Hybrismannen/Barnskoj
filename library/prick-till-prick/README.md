@@ -3,6 +3,9 @@
 Förbind numrerade prickar och upptäck motivet. Detta är **första planerade aktivitetsfamiljen** i Barnskoj; inga färdiga arbetsblad ingår i denna version.
 
 ## Motivbank
+- 1950-tal: jukebox, rock'n'roll-mikrofon, modellbil, radioapparat, rymdraket.
+- 1960-tal: transistorradio, vinylspelare, Vespa-liknande scooter, rymdhjälm, popgitarr.
+- 1970-tal: kassettspelare, platåskor, disco, analog kamera, klassisk cykel.
 - 1980-tal: kassettband, boombox, BMX, arkadmaskin, robot.
 - 1990-tal: handhållet spel, tamagotchi-liknande originalvarelse, skateboard, basketkorg.
 - 2000-tal: fliptelefon, MP3-spelare, fantasydrake, digitalkamera.
@@ -10,6 +13,9 @@ Förbind numrerade prickar och upptäck motivet. Detta är **första planerade a
 - 2020–2025: creator-setup, charmfigur, gamingstol, parkour, streetwear.
 
 Även tidlösa teman: djur, rymden, natur, sport, fordon, mat, fantasivärldar.
+
+## Vuxenspår
+För nostalgiska illustrationsböcker används komplexa dot-to-dot-bilder, silhuettmysterier och geometriska kompositioner med egna utföranden. Vuxenmaterial organiseras också i [Adult Nostalgia](../adult-nostalgia/README.md). En känd person eller fiktiv figur kan användas som **forskningsreferens**; ett igenkännbart skyddat porträtt eller en skyddad karaktär kan kräva tillstånd före distribution.
 
 ## Fem svårighetsnivåer (förslag, testas)
 | Nivå | Antal prickar | Typisk form |

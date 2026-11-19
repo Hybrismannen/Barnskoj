@@ -4,7 +4,7 @@
 - **246 figurposter**, inklusive historiska 1950–1970-talsvärldar.
 - **184 kändis-/person-/grupposter**, med kompletterande musikhistoria, sport och svensk kultur.
 - **430 individuella fördjupningsfiler**, konsekvent länkade från respektive CSV.
-- **25 källposter**, varav flera är övergripande ingångar som inte validerar varje person eller figur.
+- **87 källposter**, varav flera är övergripande ingångar som inte validerar varje person eller figur.
 
 ## Styrkor
 - Bra täckning av svensk nostalgisk barn-tv och globala populärkulturella universum.
@@ -22,7 +22,12 @@
 ## Länk- och integritetskontroll
 2026-11-19: 430 CSV-rader har 430 unika `profile_path` och samtliga 430 dokumentfiler hittades i GitHub-trädet. Profilerna är verkliga filer, inte obefintliga länkmål. **Detta validerar inte faktainnehållet.**
 
-Fem prioriterade profiler har nu primärkällestött innehåll (Gobo, Elmo, Televinken, Skurt, Magnus). Källor utökade till 25. För några poster har uppenbart felaktig typetikett rättats (verkliga programledare vs fiktiva figurer).
+Fem prioriterade profiler har nu primärkällestött innehåll (Gobo, Elmo, Televinken, Skurt, Magnus). Källregistret utökat till 87; 430 enhetsspecifika källdossierer har skapats, men bara 23 poster har kandidatmatchning mot en direkt objektsida och 154 saknar fortfarande källa. För några poster har uppenbart felaktig typetikett rättats (verkliga programledare vs fiktiva figurer).
+
+## Sourcingutvidgning — tredje etappen
+- [Källdossierer](../sources/entity-dossiers/) är skapade för alla 430 registerposter.
+- [Sourcing pass 2](../sources/SOURCING_PASS_2.md), [pass 3](../sources/SOURCING_PASS_3.md) och [täckningsrapport](../sources/COVERAGE_DASHBOARD.md) dokumenterar belägg, härledningsnivåer och kvarvarande luckor.
+- Alla poster har en fysisk fördjupningsprofil och en fysisk källdossier. Ingen av detta betyder full individuell faktagranskning.
 
 ## Nästa researchpass – prioritering
 P1: Fragglarna (fem huvudfigurer), Sesame Street (huvudensemblen), Televinken, Skurt, 1960-/1970-talets svenska barn-tv.  

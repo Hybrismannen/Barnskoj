@@ -1,36 +1,32 @@
-# Televinken
+# Televinken (Anita och Televinken)
 
-**ID:** BS-CHAR-0019  
-**Typ:** Figur / kulturhistorisk referens  
-**Katalogkoppling:** [Figurbibliotek](../../catalog/characters.csv)  
-**Status:** Forskningsprofil (inte publicerad illustration)  
+**Register-ID:** BS-CHAR-0019  
+**Referensvärld:** Anita och Televinken  
+**Entitetstyp:** Fiktiv marionettfigur  
+**Researchstatus:** source_checked_partial (endast nedanstående explicita uppgifter)  
+**Rättighetsstatus:** restricted_reference / not cleared
 
-## Registeruppgifter (ej individuellt faktagranskade)
-- Namn: **Televinken**
-- Universum/program: **Anita och Televinken**
-- Epokfält: **1960s–1990s**
-- Ursprungskategori: **svensk**
+## Historik med belägg
+SVT identifierar Televinken som marionettdockan som medverkar tillsammans med Anita Lindman.
 
-## Källspår
-- [SRC002 – SVT – Anita och Televinken](https://www.svtplay.se/godnattstunden-med-anita-och-televinken) — verified_entity_page; relevant program-/figursammanhang är belagt, enskilda attribut återstår att verifiera
-- [SRC003 – SVT – Tut med Televinken](https://www.svtplay.se/tut-med-televinken) — verified_entity_page; relevant program-/figursammanhang är belagt, enskilda attribut återstår att verifiera
+## Figur, sammanhang och kulturrelevans
+SVT:s programinformation för Tut med Televinken beskriver trafikscener med barn; rösten anges som Ola Lundberg. Därmed är Televinken både historisk svensk tv-figur och ingång till kulturhistoria om barns trafiksäkerhet.
 
-## Fördjupningsfält (att fylla med verifierad evidens)
-| Fält | Status |
-| --- | --- |
-| Alternativa namn och svenska benämningar | Ej verifierat |
-| Första belagda framträdande och kronologi | Ej verifierat |
-| Skapare, produktion, distribution | Ej verifierat |
-| Utseende, rekvisita, relationer, figurutveckling | Ej verifierat |
-| Svenska tv-/kulturkopplingar och generationsrelevans | Ej verifierat |
-| Kulturellt och illustrativt bildspråk | Analys återstår |
-| Upphov, porträtt- och distributionsrätt | Granskning krävs |
-| Objektbunden källa, citat/källställe, kontrolltidpunkt | Krävs |
+## Källor
+- SRC002: https://www.svtplay.se/godnattstunden-med-anita-och-televinken
+- SRC003: https://www.svtplay.se/tut-med-televinken
 
-## Produktionsförslag – endast koncept
-- Avgränsad faktaruta eller historiskt quiz efter verifiering.
-- Tidsperiodsinspirerat **eget** motiv som inte kopierar skyddad figur eller porträtt.
-- Licensierad karaktärsillustration först efter dokumenterad rättighetsprövning.
+**Källkontroll:** 2026-11-19. Endast redovisade fakta är grundade. Upphov till samtliga versioner, exklusiva licensrättigheter, samtliga sändningsår och svenska röstlistor är inte fullständigt kartlagda.
 
-## Beslutsgate
-`research_candidate → source_checked → rights_checked → production_approved`. Inget godkännande att reproducera bilden/namnet som endorsement ges av denna post.
+## Formidéer och produktionspotential
+Originalmotiv med nostalgisk 1960-tals trafikmiljö, cykel och skyltar; licens krävs för identifierbar Televinken.
+
+Möjliga format: källverifierat triviaquiz, historiskt aktivitetsblad och separat rättighetsklarerat illustrerat material. Vuxennostalgisk bok kan knytas till programmets dokumenterade tidsepok utan att återge originalkaraktären.
+
+## Återstående fördjupning
+- Exakta utseendevarianter, upphovspersoner, svenska titlar och dokumenterad sändningshistorik
+- Karaktärsrelationer, arkivposter och bildmaterial med granskningsbar källa
+- Juridisk bedömning för planerad reproduktion eller kommersiell bokutgivning
+- Individuellt godkänd illustratorisk specifikation och provutskrift
+
+**Produktionsbeslut:** Väntar på rättighetsklarering. Källdokumentation är inte en bildlicens.

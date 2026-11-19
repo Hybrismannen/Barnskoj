@@ -1,9 +1,9 @@
 # Källregister och källprövning
 
 ## Genomförd baslinjesourcing 2026-11-19
-**22 dokumenterade portaler eller entitetssidor** från SVT, upphovs-/produktionsorganisationer, museer, musik- och idrottsinstitutioner samt rättighetsvägledning. Se [registry.csv](registry.csv).
+**25 dokumenterade portaler eller entitetssidor** från SVT, upphovs-/produktionsorganisationer, museer, musik- och idrottsinstitutioner samt rättighetsvägledning. Se [registry.csv](registry.csv).
 
-**Viktigt:** En tillgänglig institutionell portal är inte en individuellt verifierad biografi. Alla profiler har därför `research_candidate` tills respektive post verifierats med **en objektspecifik källa, belagd uppgift och granskningsdatum**. Programspecifika källor kan belägga ett universum men verifierar inte automatiskt alla figurers detaljer. `source_ids` i katalogen är källspår, inte genomförd individuell källgranskning.
+**Viktigt:** En tillgänglig institutionell portal är inte en individuellt verifierad biografi. Huvuddelen av profilerna har därför `research_candidate` tills respektive post verifierats med **en objektspecifik källa, belagd uppgift och granskningsdatum**. Programspecifika källor kan belägga ett universum men verifierar inte automatiskt alla figurers detaljer. `source_ids` i katalogen är källspår, inte genomförd individuell källgranskning.
 
 ## Källhierarki
 A: officiell originalkälla, programarkiv, rättighetsinnehavare, artist-/klubb-/förbundsprofil, museiföremåls-ID.  

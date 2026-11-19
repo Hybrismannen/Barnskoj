@@ -4,7 +4,7 @@
 - **246 figurposter**, inklusive historiska 1950–1970-talsvärldar.
 - **184 kändis-/person-/grupposter**, med kompletterande musikhistoria, sport och svensk kultur.
 - **430 individuella fördjupningsfiler**, konsekvent länkade från respektive CSV.
-- **22 källposter**, varav flera är övergripande ingångar som inte validerar varje person eller figur.
+- **25 källposter**, varav flera är övergripande ingångar som inte validerar varje person eller figur.
 
 ## Styrkor
 - Bra täckning av svensk nostalgisk barn-tv och globala populärkulturella universum.
@@ -18,6 +18,11 @@
 4. Övergripande källor validerar inte 100-tals enskilda datapunkter; objektsidor måste hämtas och beläggas.
 5. Ingen licens för personporträtt eller karaktärsdesign är förvärvad, inga publicerbara illustrationer har skapats.
 6. En lek-/bokprodukt kräver också temakuratering, testad svårighetsgrad, upphovskontroll, facit och produktionsteknisk kontroll.
+
+## Länk- och integritetskontroll
+2026-11-19: 430 CSV-rader har 430 unika `profile_path` och samtliga 430 dokumentfiler hittades i GitHub-trädet. Profilerna är verkliga filer, inte obefintliga länkmål. **Detta validerar inte faktainnehållet.**
+
+Fem prioriterade profiler har nu primärkällestött innehåll (Gobo, Elmo, Televinken, Skurt, Magnus). Källor utökade till 25. För några poster har uppenbart felaktig typetikett rättats (verkliga programledare vs fiktiva figurer).
 
 ## Nästa researchpass – prioritering
 P1: Fragglarna (fem huvudfigurer), Sesame Street (huvudensemblen), Televinken, Skurt, 1960-/1970-talets svenska barn-tv.  

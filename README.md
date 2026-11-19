@@ -2,7 +2,7 @@
 
 **Lek, skapa, klura och upptäck.**
 
-Barnskoj är ett öppet och växande bibliotek med roliga aktiviteter för barn och unga. Här ska det finnas både utskrivbara material och, på sikt, digitala aktiviteter som kan användas hemma, i skolan, på fritids eller tillsammans med andra.
+Barnskoj är ett öppet och växande bibliotek med roliga aktiviteter för barn, unga och vuxna – från lekfulla barnblad till nostalgiska illustrations- och aktivitetsböcker för vuxna. Här ska det finnas både utskrivbara material och, på sikt, digitala aktiviteter som kan användas hemma, i skolan, på fritids eller tillsammans med andra.
 
 > Status: Grundstruktur v0.1. Innehållsidéer är inte färdigproducerade eller kvalitetssäkrade aktivitetsblad.
 
@@ -10,7 +10,7 @@ Barnskoj är ett öppet och växande bibliotek med roliga aktiviteter för barn 
 
 | Bibliotek | Innehåll | Status |
 | --- | --- | --- |
-| [Prick till prick](library/prick-till-prick/README.md) | Motiv från vardag, sport, gaming och populärkultur 1980–2025 | Planerat |
+| [Prick till prick](library/prick-till-prick/README.md) | Motiv från vardag, sport, gaming och populärkultur 1950–2025 | Planerat |
 | Måla & skapa | Målarbilder, pixel art, symmetri, teckning | Planerat |
 | Klurigt & smart | Labyrinter, sudoku, rebusar, logik | Planerat |
 | Ord & språk | Ordsök, korsord, hemliga meddelanden | Planerat |
@@ -20,6 +20,17 @@ Barnskoj är ett öppet och växande bibliotek med roliga aktiviteter för barn 
 | Rörelse & äventyr | Hinderbanor, utomhusuppdrag | Planerat |
 | Musik & rytm | Ljudbingo, rytmlekar, musikquiz | Planerat |
 | Tillsammans | Samarbetslekar, familje- och gruppuppdrag | Planerat |
+
+## Generationer och kulturarv
+
+Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtrera efter både **motivets epok** och **målgrupp**. Vuxnas böcker med minnen från barndomen ska ha egen redaktionell stil och komplexitet, inte marknadsföras som barnarbetsblad.
+
+- [Generationsbiblioteket 1950–2025](catalog/decades/README.md)
+- [Vuxenformat: nostalgiska prick-till-prick och mandalaböcker](library/adult-nostalgia/README.md)
+- [Figurbibliotek, 159 researchposter](catalog/characters.csv)
+- [Kändisbibliotek, 111 researchposter](catalog/celebrities.csv)
+- [Kulturarv och barnprogram](catalog/heritage.md)
+- [Rättighetspolicy](docs/RIGHTS.md)
 
 ## Principer
 

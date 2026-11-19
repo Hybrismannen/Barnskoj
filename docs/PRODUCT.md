@@ -1,10 +1,12 @@
 # Produktvision – Barnskoj v0.1
 
 ## Syfte
-Bygg ett växande, lustfyllt och tillgängligt aktivitetsbibliotek för barn och unga. Det ska gå att hitta något roligt efter intresse, ålder/färdighet, format, tid, material och sammanhang.
+Bygg ett växande, lustfyllt och tillgängligt aktivitetsbibliotek för barn, unga och vuxna, inklusive generationsbaserad nostalgi och kreativt skapande. Det ska gå att hitta något roligt efter intresse, ålder/färdighet, format, tid, material och sammanhang.
 
 ## Målgrupper
-- Barn cirka 4–16+ år: primär användargrupp.
+- Barn cirka 4–16+ år: ett prioriterat användningsspår.
+- Vuxna i olika åldrar: komplexa prick-till-prick-böcker, mandalamönster, illustrativa minnesvärldar och generationsquiz.
+- Familjer med flera generationer: delat skapande och samtal om kulturhistoria.
 - Vuxna nära barn, pedagoger och fritidsledare: hittar, anpassar och skriver ut aktiviteter.
 - Flera barn eller generationer tillsammans: aktiviteter att göra gemensamt.
 
@@ -14,8 +16,9 @@ Bygg ett växande, lustfyllt och tillgängligt aktivitetsbibliotek för barn och
 1. Brett utbud av aktiviteter utan könskodade kataloger.
 2. Snyggt material som även äldre barn vill använda.
 3. Lätt att hitta, skriva ut och återanvända.
-4. Återkommande nya teman och tidsepoker – från 1980-tal till samtid.
+4. Återkommande nya teman och tidsepoker – från 1950-tal till samtid.
 5. Tillgänglighet genom alternativa format och flexibla svårighetsgrader.
+6. Originala estetiskt genomarbetade vuxenböcker där en välkänd barndomsepok är den sammanhållande idén.
 
 ## Innehållsfamiljer
 1. Prick till prick

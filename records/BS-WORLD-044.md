@@ -1,0 +1,46 @@
+# Trazan och Banarne – standardiserad basprofil
+
+**Entitet:** BS-WORLD-044 · **Forskningsgrad:** Q1_source_leads · **Publikationsrätt:** HOLD · **Schema:** 2.0
+
+[Fördjupningsprofil](../profiles/universes/BS-WORLD-044.md) · [Individuellt källdossier](../sources/entity-dossiers/BS-WORLD-044.md) · [Evidensmatris](../evidence/attribute_evidence.csv)
+
+## Obligatoriska attribut
+| Attribut | Värde | Evidensstatus | Påståendebelägg |
+| --- | --- | --- | --- |
+| display_name | Trazan och Banarne | catalog_derived | – |
+| entity_type | universe | catalog_derived | – |
+| canonical_id | BS-WORLD-044 | catalog_derived | – |
+| universe_id | BS-WORLD-044 | catalog_derived | – |
+| primary_medium | medium:television | catalog_derived | – |
+| genre_bucket | not_applicable | not_applicable | – |
+| era_association | 1970s–1980s | catalog_derived | – |
+| cultural_context | svensk | catalog_derived | – |
+| first_appearance_year | unknown | unknown | – |
+| documented_swedish_broadcast_year | unknown | unknown | – |
+| credited_creator | unknown | unknown | – |
+| origin_country | unknown | unknown | – |
+| intended_audience | unassigned | not_assigned | – |
+| activity_format | unassigned | not_assigned | – |
+| rights_status | HOLD | policy_state | – |
+| publication_status | reference_only | policy_state | – |
+| research_grade | Q1_source_leads | computed_from_registry | – |
+
+## Samtliga taggdimensioner
+- **entity_type:** `type:universe`
+- **medium:** `medium:television`
+- **cultural_context:** `market:sweden`
+- **cultural_era:** `era:1970s`, `era:1980s`
+- **universe:** `world:BS-WORLD-044`
+- **curation_bucket:** `bucket:unassigned`
+- **audience:** `audience:unassigned`
+- **activity_format:** `format:unassigned`
+- **source_quality:** `evidence:q1`
+- **rights:** `rights:hold`
+- **publication:** `publication:reference-only`
+- **geographic_origin:** `origin:unverified`
+- **identity:** `identity:canonical`
+- **language_variant:** `language:unverified`
+
+**Käll-ID:** SRC029 · **Claim-ID:** saknas
+
+Obelagda uppgifter markeras `unknown`. Källor är inte bildlicenser. Likvärdiga fält innebär inte likvärdig faktaverifiering.

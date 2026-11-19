@@ -78,7 +78,7 @@ def main():
             ERRORS.append(f"Duplicate tag assignment: {item}")
         pairs.add(item)
         assigned_by_entity[r["entity_id"]].add(r["tag_id"])
-        if r["entity_id"] not in eid:
+        if r["entity_id"] not in eid | wid:
             ERRORS.append(f"Assignment references missing entity: {r['entity_id']}")
         if r["tag_id"] not in tid:
             ERRORS.append(f"Assignment references missing tag: {r['tag_id']}")

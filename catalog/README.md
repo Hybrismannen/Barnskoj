@@ -16,6 +16,9 @@ En referens kan förekomma i flera aktiviteter utan att vi duplicerar grunddata.
 ## Individuella fördjupningsregister
 Varje CSV-rad har `profile_path` med direkt länk till en Markdownfil under [profiles/characters](../profiles/characters/) eller [profiles/people](../profiles/people/). Länkarna är kontrollerade mot repository-trädet (430/430 matchar). Fem figurer har inledande objektspecifik källresearch; övriga är under utveckling. Se [källregistret](../sources/registry.csv) och [biblioteksrevisionen](REGISTRY_AUDIT.md).
 
+## Källdossierer
+Nu finns även `source_dossier_path` i båda CSV-katalogerna. [430 individuella källdossierer](../sources/entity-dossiers/) är länkade till respektive profil och listar registrerade source-ID och källornas begränsningar. Se [täckningsmätningen](../sources/COVERAGE_DASHBOARD.md) för verkliga luckor.
+
 ## Kvalitetsstatus
 `research_candidate → source_checked → rights_checked → usable_reference`. En referenspost som inte klarat detta flöde får inte publiceras som en godkänd bildresurs.
 

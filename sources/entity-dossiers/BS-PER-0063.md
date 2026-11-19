@@ -1,29 +1,26 @@
 # Källdossier – Michael Jordan
 
-**Entitet:** BS-PER-0063  
-**Kanonisk referens:** BS-PER-0063 (canonical)  
-**QA-grad:** Q1_source_leads  
-**Faktagranskning:** endast specificerade claims nedan  
-**Bildrättigheter:** HOLD  
-**Reviderad:** 2026-11-19
+**ID:** BS-PER-0063  
+**Kanonisk identitet:** BS-PER-0063 · canonical  
+**Granskningsnivå:** Q1_source_leads  
+**Publiceringsrätt:** HOLD  
+**Kontrolldatum:** 2026-11-19
 
-[Fördjupningsprofil](../../profiles/people/BS-PER-0063.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
+[Fördjupningsprofil](../../profiles/people/BS-PER-0063.md) · [Källregister](../registry.csv) · [QA-register](../../quality/entity_quality.csv)
 
-## Källförteckning – 4 länkade referenser
-- SRC016 – OGILTIG KÄLLREFERENS
-- SRC017 – OGILTIG KÄLLREFERENS
-- SRC067 – OGILTIG KÄLLREFERENS
-- SRC068 – OGILTIG KÄLLREFERENS
+## Källspår (4)
+- **SRC016** [IOC – Athletes](https://www.olympics.com/ioc/athletes) · `institutional_sports` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC017** [Olympedia – database](https://www.olympedia.org/) · `secondary_database` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC067** [NBA – historiska legender](https://www.nba.com/news/history-nba-legends) · `institutional_sports` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
+- **SRC068** [NBA – Michael Jordan](https://www.nba.com/news/history-nba-legend-michael-jordan) · `official_biography` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
 
-## Atomära verifierade sakpåståenden – 0
-- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
+## Verifierade, avgränsade fakta (0)
+- Inget enskilt faktapåstående har kontrollerats på denna entitet.
 
-## Brister och spärrar
-- DANGLING_SOURCE_ID
+## Kvalitetsspärrar
 - SOURCE_LINK_ONLY
 - RIGHTS_NOT_GRANTED
-- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
-- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
-- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+- Källspår kan vara program-/domänsidor utan individbelägg. Alla påståenden utöver listade kontrollerade fakta är researchkandidater.
+- Bild-/porträtt-/figurrättigheter för offentlig eller kommersiell användning är **inte** klarerade.
 
-**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**
+**Q3 kräver sammanhängande källgranskning, tidslinje, identitetskontroll och redaktionellt beslut.**

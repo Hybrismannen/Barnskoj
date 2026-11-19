@@ -1,26 +1,24 @@
 # Källdossier – Glasögonsmurfen
 
-**Entitet:** BS-CHAR-0066  
-**Kanonisk referens:** BS-CHAR-0066 (canonical)  
-**QA-grad:** Q0_no_source  
-**Faktagranskning:** endast specificerade claims nedan  
-**Bildrättigheter:** HOLD  
-**Reviderad:** 2026-11-19
+**ID:** BS-CHAR-0066  
+**Kanonisk identitet:** BS-CHAR-0066 · canonical  
+**Granskningsnivå:** Q0_no_source  
+**Publiceringsrätt:** HOLD  
+**Kontrolldatum:** 2026-11-19
 
-[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0066.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0066.md) · [Källregister](../registry.csv) · [QA-register](../../quality/entity_quality.csv)
 
-## Källförteckning – 0 länkade referenser
-- Inga. Sourcing måste ske från objektspecifika originalkällor.
+## Källspår (0)
+- Saknas; kräver objektspecifik sourcing.
 
-## Atomära verifierade sakpåståenden – 0
-- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
+## Verifierade, avgränsade fakta (0)
+- Inget enskilt faktapåstående har kontrollerats på denna entitet.
 
-## Brister och spärrar
+## Kvalitetsspärrar
 - NO_SOURCE_URL
 - ERA_RANGE_NOT_DEBUT_YEAR
 - RIGHTS_NOT_GRANTED
-- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
-- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
-- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+- Källspår kan vara program-/domänsidor utan individbelägg. Alla påståenden utöver listade kontrollerade fakta är researchkandidater.
+- Bild-/porträtt-/figurrättigheter för offentlig eller kommersiell användning är **inte** klarerade.
 
-**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**
+**Q3 kräver sammanhängande källgranskning, tidslinje, identitetskontroll och redaktionellt beslut.**

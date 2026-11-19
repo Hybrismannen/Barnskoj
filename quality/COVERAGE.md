@@ -1,44 +1,24 @@
-# Kvalitetsdjup – audit 2026-11-19
+# Kvalitetsdjup 2026-11-19 – reparerad källintegritet
 
-## Mätbar täckning
-| Mått | Utfall |
-| --- | ---: |
-| Katalogposter totalt | 430 |
-| Figurer/programanknutna | 246 |
-| Personer/grupper | 184 |
-| Universum | 55 |
-| Källa-URL:er i register | 89 |
-| Granskade källsidor (avgränsad omfattning) | 13 |
-| Atomära källbelagda påståenden | 39 |
-| Q2: minst ett verifierat påstående | 36 |
-| Q1: endast källingångar | 240 |
-| Q0: inga registrerade källingångar | 154 |
-| Q3: fullständigt djupverifierad | 0 |
-| Alias-/cross-catalog-rader | 2 |
-| Verkliga programledare ännu i figurkatalog | 5 |
-| Käll-ID som saknar registerträff | 276 |
-| Godkända bildrättigheter | 0 |
+## Utfall
+- **430 entiteter:** 154 Q0 utan källa, 240 Q1 med källspår, 36 Q2 med minst ett kontrollerat faktapåstående. **0 Q3** fullständigt granskade.
+- **90 källregistreringar**, **39 atomära påståenden** och **13 kontrollerade webbsidor** för avgränsade fakta.
+- **0 okända source-ID-kopplingar** efter schemajustering.
+- **2 alias-/cross-catalog-rader**, **5 verkliga programledare ännu i figurkatalog**.
+- **430 rättighetsgrindar i HOLD**: ingen publicerbar karaktärsbild eller personporträtt är licensierad.
 
-## Åtgärder genomförda
-1. Normerad taggtaxonomi och entitet↔tagg-kopplingar.
-2. Separat universumsregister med egna profiler och figurlänkar.
-3. Identitetsalias och särskiljning av likalydande namn.
-4. Synkroniserade alla 430 enheters källdossier mot **nuvarande** källkatalog och claims (ersätter tidigare inaktuella dossierlistor).
-5. Publicerings- och källgrindar separerade, samt per-entity audit-rad.
-6. Källkontrollerade atomära faktapåståenden med exakt källankare.
+## Reparerat importfel
+Tidigare registerversion hade en oquotad rubrikrad och citerade datarader. En import behandlade oquotade rubriker fel och skrev om källregistret utan header. CSV-rubriken har återställts och alla 430 källdossierer **omgenererats med korrekt source-ID-validering**. Inga påståenden har fått höjd granskning på grund av importreparationen.
 
-## Identifierade systemfel
-- 154 saknar käll-URL; 240 har källspår utan faktakontroll.
-- Ärvda epokintervall representerar **associerad period**, inte verifierad individuell debut eller svensk sändningshistoria.
-- Verkliga barn-tv-programledare förekommer i figurkatalogen och kräver en framtida skonsam datamigrering.
-- De två registren har i huvudsak stora engelskspråkiga/globala universum, vilket bör kompletteras med svensk och annan regional kulturhistoria.
-- De flesta figur- och personporträtt är skyddade; 0 rättigheter godkända för offentlig bokutgivning.
-- Vissa äldre käll-URL:er har katalogstatus 'verified' men har ännu inte provats på nytt. Endast de 13 i `evidence/source_checks.csv` är här påståendespecifikt granskade.
+## Kritiska kvarvarande kvalitetsfrågor
+1. 394 entiteter behöver objektspecifik faktagranskning.
+2. Epokintervall är breda sökfacetter, inte debutår eller svensk sändningshistoria.
+3. Identitet, medverkande personer, rollfigurer och kollektiv måste särskiljas.
+4. Äldre source-registry-verifieringsetiketter är inte bevis för nya URL-kontroller; endast `evidence/source_checks.csv` är faktaspecifik.
+5. Licensiering och tryckbarhet är helt separata arbetsflöden från källgranskningen.
 
-## Prioriterad kvalitetskö
-**P0** Identitet/alias, full synk och URL-integritet (implementerat strukturellt).  
-**P1** Källbeläggning av de 154 Q0-posterna och de 240 Q1-posterna.  
-**P2** Djupverifiera barn-tv 1950–1990 (upphov, svenska versioner, datum, figurrelationer).  
-**P3** Licens- och tryckgranskning för konkreta serier av prick-till-prick och mandalaböcker.
-
-**Utvärderingsregel:** Ärlig Q2-status är bättre än falskt Q3-godkännande.
+## Spårbarhet
+- [Kvalitetsregister](entity_quality.csv)
+- [Faktapåståenden](../evidence/claims.csv)
+- [Källdossierer](../sources/entity-dossiers/)
+- [Taggtaxonomi](../tags/taxonomy.csv)

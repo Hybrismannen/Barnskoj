@@ -1,28 +1,25 @@
 # Källdossier – Ernie
 
-**Entitet:** BS-CHAR-0014  
-**Kanonisk referens:** BS-CHAR-0014 (canonical)  
-**QA-grad:** Q2_partial_claim_verified  
-**Faktagranskning:** endast specificerade claims nedan  
-**Bildrättigheter:** HOLD  
-**Reviderad:** 2026-11-19
+**ID:** BS-CHAR-0014  
+**Kanonisk identitet:** BS-CHAR-0014 · canonical  
+**Granskningsnivå:** Q2_partial_claim_verified  
+**Publiceringsrätt:** HOLD  
+**Kontrolldatum:** 2026-11-19
 
-[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0014.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0014.md) · [Källregister](../registry.csv) · [QA-register](../../quality/entity_quality.csv)
 
-## Källförteckning – 3 länkade referenser
-- SRC006 – OGILTIG KÄLLREFERENS
-- SRC040 – OGILTIG KÄLLREFERENS
-- SRC041 – OGILTIG KÄLLREFERENS
+## Källspår (3)
+- **SRC006** [Sesame Workshop – Characters](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) · `rights_holder` · registrerad källstatus `verified_entity_page`; inte automatisk individgranskning.
+- **SRC040** [Sesame Workshop – historia](https://sesameworkshop.org/about-us/mission-and-history/) · `rights_holder` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
+- **SRC041** [Sesame Workshop – 50 years](https://sesameworkshop.org/about-us/mission-and-history/50-years-of-impact/) · `rights_holder` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
 
-## Atomära verifierade sakpåståenden – 1
-- **CLM-0014** Ernie spelar ofta små spratt med Bert. [SRC006](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) – Sesame Workshop character directory, lines 220-222.
+## Verifierade, avgränsade fakta (1)
+- **CLM-0014** Ernie spelar ofta små spratt med Bert. [SRC006](https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/) · Sesame Workshop character directory, lines 220-222
 
-## Brister och spärrar
-- DANGLING_SOURCE_ID
+## Kvalitetsspärrar
 - ERA_RANGE_NOT_DEBUT_YEAR
 - RIGHTS_NOT_GRANTED
-- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
-- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
-- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+- Källspår kan vara program-/domänsidor utan individbelägg. Alla påståenden utöver listade kontrollerade fakta är researchkandidater.
+- Bild-/porträtt-/figurrättigheter för offentlig eller kommersiell användning är **inte** klarerade.
 
-**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**
+**Q3 kräver sammanhängande källgranskning, tidslinje, identitetskontroll och redaktionellt beslut.**

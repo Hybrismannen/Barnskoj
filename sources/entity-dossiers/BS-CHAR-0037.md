@@ -1,30 +1,27 @@
 # Källdossier – Tommy
 
-**Entitet:** BS-CHAR-0037  
-**Kanonisk referens:** BS-CHAR-0037 (canonical)  
-**QA-grad:** Q1_source_leads  
-**Faktagranskning:** endast specificerade claims nedan  
-**Bildrättigheter:** HOLD  
-**Reviderad:** 2026-11-19
+**ID:** BS-CHAR-0037  
+**Kanonisk identitet:** BS-CHAR-0037 · canonical  
+**Granskningsnivå:** Q1_source_leads  
+**Publiceringsrätt:** HOLD  
+**Kontrolldatum:** 2026-11-19
 
-[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0037.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0037.md) · [Källregister](../registry.csv) · [QA-register](../../quality/entity_quality.csv)
 
-## Källförteckning – 4 länkade referenser
-- SRC001 – OGILTIG KÄLLREFERENS
-- SRC010 – OGILTIG KÄLLREFERENS
-- SRC031 – OGILTIG KÄLLREFERENS
-- SRC039 – OGILTIG KÄLLREFERENS
+## Källspår (4)
+- **SRC001** [SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) · `primary_archive` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC010** [Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) · `bibliography` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC031** [SVT – Pippi Långstrump](https://www.svtplay.se/pippi-langstrump) · `primary_entity` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
+- **SRC039** [Astrid Lindgren – karaktärer](https://www.astridlindgren.com/gb-sv-se/karaktarerna) · `rights_holder` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
 
-## Atomära verifierade sakpåståenden – 0
-- Inga verifierade sakpåståenden; de angivna länkarna är endast möjliga forskningstrådar.
+## Verifierade, avgränsade fakta (0)
+- Inget enskilt faktapåstående har kontrollerats på denna entitet.
 
-## Brister och spärrar
-- DANGLING_SOURCE_ID
+## Kvalitetsspärrar
 - SOURCE_LINK_ONLY
 - ERA_RANGE_NOT_DEBUT_YEAR
 - RIGHTS_NOT_GRANTED
-- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
-- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
-- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+- Källspår kan vara program-/domänsidor utan individbelägg. Alla påståenden utöver listade kontrollerade fakta är researchkandidater.
+- Bild-/porträtt-/figurrättigheter för offentlig eller kommersiell användning är **inte** klarerade.
 
-**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**
+**Q3 kräver sammanhängande källgranskning, tidslinje, identitetskontroll och redaktionellt beslut.**

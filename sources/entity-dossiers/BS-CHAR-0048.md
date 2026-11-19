@@ -1,30 +1,27 @@
 # Källdossier – Brasse
 
-**Entitet:** BS-CHAR-0048  
-**Kanonisk referens:** BS-CHAR-0048 (canonical)  
-**QA-grad:** Q2_partial_claim_verified  
-**Faktagranskning:** endast specificerade claims nedan  
-**Bildrättigheter:** HOLD  
-**Reviderad:** 2026-11-19
+**ID:** BS-CHAR-0048  
+**Kanonisk identitet:** BS-CHAR-0048 · canonical  
+**Granskningsnivå:** Q2_partial_claim_verified  
+**Publiceringsrätt:** HOLD  
+**Kontrolldatum:** 2026-11-19
 
-[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0048.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
+[Fördjupningsprofil](../../profiles/characters/BS-CHAR-0048.md) · [Källregister](../registry.csv) · [QA-register](../../quality/entity_quality.csv)
 
-## Källförteckning – 4 länkade referenser
-- SRC001 – OGILTIG KÄLLREFERENS
-- SRC010 – OGILTIG KÄLLREFERENS
-- SRC051 – OGILTIG KÄLLREFERENS
-- SRC023 – OGILTIG KÄLLREFERENS
+## Källspår (4)
+- **SRC001** [SVT – Barn Öppet arkiv](https://www.svtplay.se/kategori/barn-oppet-arkiv) · `primary_archive` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC010** [Kungliga biblioteket – Svensk mediedatabas (via universitet)](https://www.kau.se/bibliotek/sok/sok-information/databaser-artiklar/svensk-mediedatabas) · `bibliography` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC051** [SVT – Magnus, Brasse och Eva (avsnitt)](https://www.svtplay.se/video/jv7grmK/fem-myror-ar-fler-an-fyra-elefanter-svt-barn/avsnitt-1) · `primary_entity` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
+- **SRC023** [SVT – Fem myror 50 år 2023](https://omoss.svt.se/arkiv/nyhetsarkiv/2023-11-17-fem-myror-ar-fler-an-fyra-elefanter-fyller-50.html) · `primary_archive` · registrerad källstatus `verified_entity_page`; inte automatisk individgranskning.
 
-## Atomära verifierade sakpåståenden – 1
-- **CLM-0029** Brasse ingår bland huvudgestalterna i SVT:s Fem myror, som hade premiär 19 november 1973. [SRC023](https://omoss.svt.se/arkiv/nyhetsarkiv/2023-11-17-fem-myror-ar-fler-an-fyra-elefanter-fyller-50.html) – SVT 50th-anniversary body, lines 16-23.
+## Verifierade, avgränsade fakta (1)
+- **CLM-0029** Brasse ingår bland huvudgestalterna i SVT:s Fem myror, som hade premiär 19 november 1973. [SRC023](https://omoss.svt.se/arkiv/nyhetsarkiv/2023-11-17-fem-myror-ar-fler-an-fyra-elefanter-fyller-50.html) · SVT 50th-anniversary body, lines 16-23
 
-## Brister och spärrar
-- DANGLING_SOURCE_ID
+## Kvalitetsspärrar
 - ERA_RANGE_NOT_DEBUT_YEAR
 - PERFORMER_PERSONA_SPLIT_REQUIRED
 - RIGHTS_NOT_GRANTED
-- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
-- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
-- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+- Källspår kan vara program-/domänsidor utan individbelägg. Alla påståenden utöver listade kontrollerade fakta är researchkandidater.
+- Bild-/porträtt-/figurrättigheter för offentlig eller kommersiell användning är **inte** klarerade.
 
-**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**
+**Q3 kräver sammanhängande källgranskning, tidslinje, identitetskontroll och redaktionellt beslut.**

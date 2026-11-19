@@ -1,27 +1,24 @@
 # Källdossier – Zlatan Ibrahimović
 
-**Entitet:** BS-PER-0052  
-**Kanonisk referens:** BS-PER-0052 (canonical)  
-**QA-grad:** Q2_partial_claim_verified  
-**Faktagranskning:** endast specificerade claims nedan  
-**Bildrättigheter:** HOLD  
-**Reviderad:** 2026-11-19
+**ID:** BS-PER-0052  
+**Kanonisk identitet:** BS-PER-0052 · canonical  
+**Granskningsnivå:** Q2_partial_claim_verified  
+**Publiceringsrätt:** HOLD  
+**Kontrolldatum:** 2026-11-19
 
-[Fördjupningsprofil](../../profiles/people/BS-PER-0052.md) · [Kvalitetsregister](../../quality/entity_quality.csv) · [Källregister](../registry.csv)
+[Fördjupningsprofil](../../profiles/people/BS-PER-0052.md) · [Källregister](../registry.csv) · [QA-register](../../quality/entity_quality.csv)
 
-## Källförteckning – 3 länkade referenser
-- SRC015 – OGILTIG KÄLLREFERENS
-- SRC064 – OGILTIG KÄLLREFERENS
-- SRC065 – OGILTIG KÄLLREFERENS
+## Källspår (3)
+- **SRC015** [FIFA – Legends](https://inside.fifa.com/en/organisation/fifa-legends) · `institutional_sports` · registrerad källstatus `verified_source_portal`; inte automatisk individgranskning.
+- **SRC064** [SvFF – Landslagshistorik](https://www.svenskfotboll.se/landslag/herr/historik-herr) · `institutional_sports` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
+- **SRC065** [SvFF – Zlatan Ibrahimović](https://www.svenskfotboll.se/nyheter/landslag/2023/06/zlatan-slutar/) · `official_biography` · registrerad källstatus `web_discovered_2026-11-19`; inte automatisk individgranskning.
 
-## Atomära verifierade sakpåståenden – 1
-- **CLM-0038** Svenska Fotbollförbundet publicerade 5 juni 2023 att Zlatan Ibrahimović avslutar spelarkarriären. [SRC065](https://www.svenskfotboll.se/nyheter/landslag/2023/06/zlatan-slutar/) – Official news dated 2023-06-05.
+## Verifierade, avgränsade fakta (1)
+- **CLM-0038** Svenska Fotbollförbundet publicerade 5 juni 2023 att Zlatan Ibrahimović avslutar spelarkarriären. [SRC065](https://www.svenskfotboll.se/nyheter/landslag/2023/06/zlatan-slutar/) · Official news dated 2023-06-05
 
-## Brister och spärrar
-- DANGLING_SOURCE_ID
+## Kvalitetsspärrar
 - RIGHTS_NOT_GRANTED
-- Personens eller figurens historik, karaktärsrelationer, visuella egenskaper och svenska sändningsår får inte extrapoleras från en generell programportal.
-- Licens för publicering av foton/identifierbara karaktärer är inte kontrollerad.
-- Q3 kräver en mer fullständig käll- och identitetsgranskning plus redaktionell sign-off.
+- Källspår kan vara program-/domänsidor utan individbelägg. Alla påståenden utöver listade kontrollerade fakta är researchkandidater.
+- Bild-/porträtt-/figurrättigheter för offentlig eller kommersiell användning är **inte** klarerade.
 
-**Detta källdossier är ett arbetsregister, inte ett godkänt förlagsspecifikt researchcertifikat.**
+**Q3 kräver sammanhängande källgranskning, tidslinje, identitetskontroll och redaktionellt beslut.**

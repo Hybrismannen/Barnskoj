@@ -21,3 +21,6 @@ source_id,title,source_tier,scope,url,verification_status
 "SRC020","SVT – Öppet arkiv förklaring","primary_archive","swedish_broadcast","https://www.svt.se/kontakt/oppet-arkiv","verified_source_portal"
 "SRC021","Jim Henson – 25 years Fraggle Rock","rights_holder","fraggle-rock","https://www.henson.com/dance-your-cares-away-and-celebrate-25-years-of-the-jim-henson-companys-iconic-fraggle-rock/","verified_entity_page"
 "SRC022","SVT – Öppet arkiv översikt","primary_archive","sv_children_tv","https://www.svtplay.se/kategori/oppet-arkiv","verified_source_portal"
+"SRC023","SVT – Fem myror 50 år 2023","primary_archive","fem-myror","https://omoss.svt.se/arkiv/nyhetsarkiv/2023-11-17-fem-myror-ar-fler-an-fyra-elefanter-fyller-50.html","verified_entity_page"
+"SRC024","Svenska Dagbladet – Skurt Ingamay intervju","journalism_interview","skurt","https://www.svd.se/a/4dzj4V/skurts-mamma-om-aren-pa-tv3","verified_entity_page"
+"SRC025","SVT – Fem myror serie","primary_archive","fem-myror","https://www.svtplay.se/fem-myror-ar-fler-an-fyra-elefanter","verified_entity_page"

@@ -3,8 +3,8 @@
 Här samlas researchposter om **fiktiva figurer/programvärldar** och **verkliga kända personer**. Katalogen är ett metadata- och inspirationsregister, **inte ett bibliotek av bilder som får återanvändas**.
 
 ## Register
-- [Fiktiva figurer och världar](characters.csv): 159 poster från 35 franchises/programvärldar; alla poster har status `research_candidate`.
-- [Verkliga kändisar](celebrities.csv): 111 unika poster från musik, sport, film/tv och andra profiler; alla poster har status `research_candidate`.
+- [Fiktiva figurer och världar](characters.csv): 246 poster från en bredare uppsättning franchises/programvärldar; alla poster har status `research_candidate`.
+- [Verkliga kändisar](celebrities.csv): 184 poster från musik, sport, film/tv och andra profiler; alla poster har status `research_candidate`.
 - [Fördjupning om barnprogram och kulturarv](heritage.md)
 - [Licens- och publiceringspolicy](../docs/RIGHTS.md)
 
@@ -12,6 +12,9 @@ Här samlas researchposter om **fiktiva figurer/programvärldar** och **verkliga
 **Referensobjekt** (person/figur/universum) ↔ **aktivitet** (prick-till-prick, quiz, labyrint, målarbild, memory etc) ↔ **asset** (redigerbar bild, utskrift, facit).
 
 En referens kan förekomma i flera aktiviteter utan att vi duplicerar grunddata. Exakta namn används för sökbar research. För produktion krävs rättighetsprövning per konkret asset och användning. Alternativet är att skapa ett självständigt originalmotiv utan förväxlingsrisk.
+
+## Individuella fördjupningsregister
+Varje CSV-rad har `profile_path` med direkt länk till en Markdownfil under [profiles/characters](../profiles/characters/) eller [profiles/people](../profiles/people/). Länkarna är kontrollerade mot repository-trädet (430/430 matchar). Fem figurer har inledande objektspecifik källresearch; övriga är under utveckling. Se [källregistret](../sources/registry.csv) och [biblioteksrevisionen](REGISTRY_AUDIT.md).
 
 ## Kvalitetsstatus
 `research_candidate → source_checked → rights_checked → usable_reference`. En referenspost som inte klarat detta flöde får inte publiceras som en godkänd bildresurs.

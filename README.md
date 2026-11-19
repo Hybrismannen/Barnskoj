@@ -50,7 +50,7 @@ Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtre
 Fördjupningsregistren byggs stegvis. 36 entiteter har avgränsade faktabelägg (Q2), 240 har ännu endast källspår (Q1) och 154 saknar källa (Q0); ingen är fullständigt djupgranskad (Q3). Ingen profil innebär rätt till ett fotograferat eller illustrerat originalverk.
 
 ### Individuella källdossierer
-Alla 430 enheter har nu både [egen fördjupningsprofil](profiles/) och [eget källdossier](sources/entity-dossiers/), länkade via `profile_path` och `source_dossier_path` i CSV. [Källtäckningsrapport](sources/COVERAGE_DASHBOARD.md) visar 23 direktkopplade objektsidor, 63 program-/världssidor, 190 domän-/kontextkopplingar och **154 poster utan käll-URL**. Källkoppling är inte liktydigt med godkänd faktagranskning eller bildrätt.
+Alla 430 entiteter har [en fördjupningsprofil](profiles/) och [ett källdossier](sources/entity-dossiers/) länkade via katalogen. [Aktuell kvalitetsrapport](quality/COVERAGE.md) visar Q0 154, Q1 240, Q2 36 och Q3 0. Endast Q2-posterna har något specificerat faktabelägg; inget objekt har därmed godkänts för kopiering eller kommersiell bildproduktion.
 
 ## Taggsystem och evidens
 - [117 taggar och 2 813 kopplingar](tags/README.md)

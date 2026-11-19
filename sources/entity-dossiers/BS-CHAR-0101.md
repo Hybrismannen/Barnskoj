@@ -1,0 +1,26 @@
+# Källdossier – Kuromi
+
+**Entitets-ID:** BS-CHAR-0101  
+**Typ:** character  
+**Källnivå:** `world_or_program_page`  
+**Underlagsstatus:** research_lead (inte fullständigt individuell faktagranskning)  
+**Senast källinventerat:** 2026-11-19  
+**Fördjupningsprofil:** [BS-CHAR-0101](../../profiles/characters/BS-CHAR-0101.md)  
+**Källregister:** [registry.csv](../registry.csv)
+
+## Registrerade källor (1)
+- **SRC009** — [Sanrio – Characters](https://www.sanrio.co.jp/) · typ `rights_holder` · scope `sanrio` · registrerad kontroll `verified_source_portal`
+
+## Källkritisk begränsning
+Källorna beskriver i första hand programmet eller figurvärlden. De kan inte ensamma verifiera alla detaljer om denna enskilda figur.
+
+## Obligatorisk granskningsmatris
+| Påstående/uppgift | Exakt källställe | Granskat | Beslut |
+| --- | --- | --- | --- |
+| Entitetens identifiering och alias | TBD | Nej | HOLD |
+| Historik/tidiga framträdanden | TBD | Nej | HOLD |
+| Relationer, prestationer och kulturell betydelse | TBD | Nej | HOLD |
+| Svensk relevans och epokassociation | TBD | Nej | HOLD |
+| Bild-/figur-/porträtträtt för konkret utgåva | TBD | Nej | HOLD |
+
+**Ingen bildlicens har härledts av dessa URL:er.**

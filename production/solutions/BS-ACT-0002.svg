@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img">
+<title>Facit – Discokula</title>
+<desc>Eget originalmotiv i A4, en intern prototyp. Facit visar sammanbunden kontur.</desc>
+<rect width="210" height="297" fill="white"/>
+<text x="20" y="24" font-family="sans-serif" font-size="8" font-weight="bold" fill="#222">FACIT · Discokula</text>
+<text x="20" y="34" font-family="sans-serif" font-size="3.8" fill="#555">Originalkonturen med lösning</text>
+<polyline data-role="solution-route" fill="none" stroke="#222" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" points="168.00,145.00 166.67,137.33 165.33,129.67 164.00,122.00 159.33,114.67 154.67,107.33 150.00,100.00 142.33,95.33 134.67,90.67 127.00,86.00 119.67,84.67 112.33,83.33 105.00,82.00 97.67,83.33 90.33,84.67 83.00,86.00 75.33,90.67 67.67,95.33 60.00,100.00 55.33,107.33 50.67,114.67 46.00,122.00 44.67,129.67 43.33,137.33 42.00,145.00 43.33,152.67 44.67,160.33 46.00,168.00 50.67,175.33 55.33,182.67 60.00,190.00 67.67,194.67 75.33,199.33 83.00,204.00 90.33,205.33 97.67,206.67 105.00,208.00 112.33,206.67 119.67,205.33 127.00,204.00 134.67,199.33 142.33,194.67 150.00,190.00 154.67,182.67 159.33,175.33 164.00,168.00 165.33,160.33 166.67,152.67 168.00,145.00"/>
+<path d="M48 145 H162 M59 111 H151 M59 179 H151 M105 83 V207 M76 92 Q105 145 76 198 M134 92 Q105 145 134 198" fill="none" stroke="#777" stroke-width="1.2"/>
+<path d="M105 81 V67" stroke="#777" stroke-width="1.5"/>
+<path d="M20 258 H190" stroke="#aaa" stroke-width="0.35"/>
+<text x="20" y="265" font-family="sans-serif" font-size="3.5" fill="#555">BARNSKOJ · ORIGINALPROTOTYP · EJ PUBLICERAD</text>
+<text x="20" y="272" font-family="sans-serif" font-size="3" fill="#777">BS-ACT-0002 · 48 punkter · A4 1:1</text>
+</svg>

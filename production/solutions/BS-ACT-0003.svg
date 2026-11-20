@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img">
+<title>Facit – Arkadmaskin</title>
+<desc>Eget originalmotiv i A4, en intern prototyp. Facit visar sammanbunden kontur.</desc>
+<rect width="210" height="297" fill="white"/>
+<text x="20" y="24" font-family="sans-serif" font-size="8" font-weight="bold" fill="#222">FACIT · Arkadmaskin</text>
+<text x="20" y="34" font-family="sans-serif" font-size="3.8" fill="#555">Originalkonturen med lösning</text>
+<polyline data-role="solution-route" fill="none" stroke="#222" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" points="51.00,238.00 52.50,227.50 54.00,217.00 55.50,206.50 57.00,196.00 58.67,187.33 60.33,178.67 62.00,170.00 67.00,165.50 72.00,161.00 72.00,150.80 72.00,140.60 72.00,130.40 72.00,120.20 72.00,110.00 75.00,99.50 78.00,89.00 88.80,89.00 99.60,89.00 110.40,89.00 121.20,89.00 132.00,89.00 135.00,99.50 138.00,110.00 138.00,120.20 138.00,130.40 138.00,140.60 138.00,150.80 138.00,161.00 143.00,165.50 148.00,170.00 149.67,178.67 151.33,187.33 153.00,196.00 154.50,206.50 156.00,217.00 157.50,227.50 159.00,238.00 148.20,238.00 137.40,238.00 126.60,238.00 115.80,238.00 105.00,238.00 94.20,238.00 83.40,238.00 72.60,238.00 61.80,238.00 51.00,238.00"/>
+<rect x="82" y="109" width="46" height="37" rx="3" fill="none" stroke="#555" stroke-width="1.6"/>
+<path d="M76 160 H134 M77 178 H133" stroke="#777" stroke-width="1.3"/>
+<path d="M97 168 v-10" stroke="#555" stroke-width="1.6"/>
+<circle cx="97" cy="157" r="3" fill="none" stroke="#555" stroke-width="1.4"/>
+<circle cx="117" cy="166" r="3" fill="none" stroke="#555" stroke-width="1.3"/>
+<circle cx="127" cy="166" r="3" fill="none" stroke="#555" stroke-width="1.3"/>
+<path d="M20 258 H190" stroke="#aaa" stroke-width="0.35"/>
+<text x="20" y="265" font-family="sans-serif" font-size="3.5" fill="#555">BARNSKOJ · ORIGINALPROTOTYP · EJ PUBLICERAD</text>
+<text x="20" y="272" font-family="sans-serif" font-size="3" fill="#777">BS-ACT-0003 · 47 punkter · A4 1:1</text>
+</svg>

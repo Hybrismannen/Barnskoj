@@ -1,1 +1,4 @@
-activity_id,motif_id,format_id,audience,age_guide,difficulty,duration_minutes,requires_solution,status,asset_id,solution_asset_id,rights_review,print_review,accessibility_review,human_review,published_at
+"activity_id","motif_id","format_id","audience","age_guide","difficulty","duration_minutes","requires_solution","status","asset_id","solution_asset_id","rights_review","print_review","accessibility_review","human_review","published_at"
+"BS-ACT-0001","BS-MOT-0001","dot-to-dot","child;adult;intergenerational","8+","2","15","yes","prototype","BS-AST-0001","BS-AST-0002","PENDING","PENDING","PENDING","PENDING",""
+"BS-ACT-0002","BS-MOT-0010","dot-to-dot","child;adult;intergenerational","8+","2","15","yes","prototype","BS-AST-0003","BS-AST-0004","PENDING","PENDING","PENDING","PENDING",""
+"BS-ACT-0003","BS-MOT-0014","dot-to-dot","child;adult;intergenerational","8+","2","15","yes","prototype","BS-AST-0005","BS-AST-0006","PENDING","PENDING","PENDING","PENDING",""

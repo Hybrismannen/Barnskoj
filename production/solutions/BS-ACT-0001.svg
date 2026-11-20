@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img">
+<title>Facit – Jukebox</title>
+<desc>Eget originalmotiv i A4, en intern prototyp. Facit visar sammanbunden kontur.</desc>
+<rect width="210" height="297" fill="white"/>
+<text x="20" y="24" font-family="sans-serif" font-size="8" font-weight="bold" fill="#222">FACIT · Jukebox</text>
+<text x="20" y="34" font-family="sans-serif" font-size="3.8" fill="#555">Originalkonturen med lösning</text>
+<polyline data-role="solution-route" fill="none" stroke="#222" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" points="48.00,234.00 48.00,223.20 48.00,212.40 48.00,201.60 48.00,190.80 48.00,180.00 48.00,169.20 48.00,158.40 48.00,147.60 48.00,136.80 48.00,126.00 48.67,118.00 49.33,110.00 50.00,102.00 53.67,94.00 57.33,86.00 61.00,78.00 67.00,73.00 73.00,68.00 79.00,63.00 87.67,61.00 96.33,59.00 105.00,57.00 113.67,59.00 122.33,61.00 131.00,63.00 137.00,68.00 143.00,73.00 149.00,78.00 152.67,86.00 156.33,94.00 160.00,102.00 160.67,110.00 161.33,118.00 162.00,126.00 162.00,136.80 162.00,147.60 162.00,158.40 162.00,169.20 162.00,180.00 162.00,190.80 162.00,201.60 162.00,212.40 162.00,223.20 162.00,234.00 151.64,234.00 141.27,234.00 130.91,234.00 120.55,234.00 110.18,234.00 99.82,234.00 89.45,234.00 79.09,234.00 68.73,234.00 58.36,234.00 48.00,234.00"/>
+<path d="M61 143 V112 Q62 79 105 72 Q148 79 149 112 V143" fill="none" stroke="#555" stroke-width="1.6"/>
+<path d="M64 160 H146 M64 178 H146 M64 195 H146" stroke="#777" stroke-width="1.2"/>
+<rect x="75" y="202" width="60" height="19" rx="3" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M20 258 H190" stroke="#aaa" stroke-width="0.35"/>
+<text x="20" y="265" font-family="sans-serif" font-size="3.5" fill="#555">BARNSKOJ · ORIGINALPROTOTYP · EJ PUBLICERAD</text>
+<text x="20" y="272" font-family="sans-serif" font-size="3" fill="#777">BS-ACT-0001 · 55 punkter · A4 1:1</text>
+</svg>

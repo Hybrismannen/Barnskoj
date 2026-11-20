@@ -1,6 +1,6 @@
 # Barnskoj – bildproveniens, original och licens
 
-**Omfattning:** 485 kulturreferensentiteter + 32 kreativa motiv = **517 obligatoriska poster**, med stabilt ID och eget bildsourcingspår. Ett registerspår med status `MISSING` är **inte** en tillgänglig eller licensierad bild.
+**Omfattning:** 485 kulturreferensentiteter + 32 kreativa motiv + 9 staged kontinuitetsvarianter = **526 obligatoriska poster**, med stabilt ID och eget bildsourcingspår. Ett registerspår med status `MISSING` är **inte** en tillgänglig eller licensierad bild.
 
 ## Bildtyper
 1. **Historisk originalbild:** fotografi, arkivobjekt, originalillustration eller dokumentation publicerad av rättighetsinnehavare, museum, arkiv eller upphovsperson. Exakt föremål, fotograf/illustratör, proveniens och återanvändningsvillkor krävs.
@@ -21,9 +21,12 @@ För en faktisk fil måste filens Commons-sida kopplas till `imageinfo`-metadata
 Originalbilder kopieras **inte** från tredje part till detta repo före behörig granskning. En extern källa ska länkas, inte hotlinkas som om vi ägde den.
 
 ## Innehållsgrad och kvalitet
-- Ett [bildkravsregister](requirements.csv) täcker alla 517 ID:n.
+- Ett [bildkravsregister](requirements.csv) täcker samtliga 517 kanoniska ID:n och 9 staged-ID:n.
 - [Källsökningsskript](../scripts/discover_image_candidates.py) ger endast **obekräftade träffar**, aldrig automatisk bildauktorisering.
 - [Kvalitetsgrind](../scripts/validate_images.py) avvisar saknade IDs och förhindrar att fält för upphov/rättigheter hoppats över.
 - Både forskningsnivå Q3 och separat bildrättsgranskning kan krävas för utgåvor med historiska faktarutor eller identifierbara figurer.
 
-**Ingen av de 517 posterna ska deklareras käll- och rättighetsklarerad förrän faktiska originalbilder och villkor har verifierats.**
+**Ingen av de 526 posterna ska deklareras käll- och rättighetsklarerad förrän faktiska originalbilder och villkor har verifierats.**
+
+## WP05 – revisionsbar proveniensgranskning
+Kör `python scripts/audit_image_provenance.py --summary` för summerad read-only status, eller `python scripts/audit_image_provenance.py` för enskilda brister. `--require-complete` avslutar med kod 2 så länge minst en källprovenienspost saknas. Skriptet hämtar inte bilder, skriver inga licenser och höjer aldrig bildens status automatiskt. Prioritera `SOURCE_CANDIDATE` som manuella granskningsköer; dessa är inte `SOURCE_CONFIRMED`. En komplett provenienspost är fortfarande **inte** kommersiell publiceringsrätt.

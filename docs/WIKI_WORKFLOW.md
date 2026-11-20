@@ -12,7 +12,7 @@ GitHub Wiki är ett **separat Git-repository** (`Hybrismannen/Barnskoj.wiki.git`
 ## Enda initialiseringssteget som kan kräva manuell användaråtgärd
 Enligt [GitHubs dokumentation](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages) måste **den första Wiki-sidan skapas i Wiki-fliken innan Wiki Git kan klonas**. Om det saknas: gå till [Wiki-fliken](https://github.com/Hybrismannen/Barnskoj/wiki) och skapa en första sida `Home`.
 
-Om automatisk token inte har behörighet att skriva Wiki: ange en repo-/Wiki-skrivbehörig token i repository secret **`BARNSKOJ_WIKI_TOKEN`**. Dela aldrig token i ett issue, chatmeddelande eller kodfil. GitHub Actions-loggen anger uttryckligen varför publicering misslyckas.
+Wiki-publiceringen kräver nu uttryckligen en separat token i repository secret **`BARNSKOJ_WIKI_TOKEN`** med rätt att läsa och skriva Wiki-Git. Standardtoken (`GITHUB_TOKEN`) ersätter aldrig denna i smyg. Dela aldrig token i ett issue, chatmeddelande eller kodfil. GitHub Actions-loggen anger uttryckligen varför publicering misslyckas.
 
 ## Endast en publicerad Wiki, inga manuella dubbletter
 - `wiki-src/` är versionerad källa, GitHub Wiki är publicerad läsvy.
@@ -24,3 +24,6 @@ Om automatisk token inte har behörighet att skriva Wiki: ange en repo-/Wiki-skr
 
 ## Dynamiska källor och copyright
 [Källnätverk för tio franchiseområden](../sourcing/wiki_sources.csv) bevakas med metadata och gransknings-PR. [Bildindex för 526 mål](../wiki-src/Bildindex.md) och [rättighetsmatris](../wiki-src/Rattighetsmatris.md) uppdateras med `python scripts/build_wiki.py`. Inget uppdateringsflöde tillåts publicera en identifierbar skyddad figur utan rättighetsklarering. [Rättighetskontrakt](../rights/README.md).
+
+## WP04: verifierad körning och spärr
+Kör `wiki-publish.yml` via `workflow_dispatch` på `main` efter att hemligheten har konfigurerats. Kontrollera jobbets **Summary**: det ska innehålla verifierad Wiki remote-commit SHA och källrepo-SHA. En grön byggkontroll före push räcker inte. En körning med `Invalid username or token` är **BLOCKED_AUTH**, inte en publicerad Wiki. Därefter krävs separat mänsklig kontroll och attest i `devops/WIKI_PUBLICATION.json` innan den prospektiva förgrinden kan ge PASS. För aldrig in själva token i dokumentation, loggar, issue eller pull request.

@@ -30,7 +30,7 @@ Fan-wikis och officiella register bevakas som **källspår**. En ändrad artikel
 | [DC Comics Database (Fandom)](https://dc.fandom.com/wiki/DC_Comics_Database) | fan_wiki | comics | mediawiki |
 | [Batman official character profile (DC)](https://www.dc.com/characters/batman) | rights_holder | comic_main | http_headers |
 | [Batman Bruce Wayne (DC Database)](https://dc.fandom.com/wiki/Batman_(Bruce_Wayne)) | fan_wiki | comics_multiverse | mediawiki |
-| [Michael Zeck Batman style guide original artwork](https://mzchecklist.myportfolio.com/batman) | artist_original | DC_artist_original | http_headers |
+| [Michael Zeck Batman style guide original artwork](https://mikezeck.com/dc-licensing/batman) | artist_original | DC_artist_original | http_headers |
 
 **Objekt som väntar på identitetsgranskning:** Batman / Bruce Wayne (DC_comics_multiverse).
 

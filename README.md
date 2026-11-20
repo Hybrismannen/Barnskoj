@@ -1,91 +1,73 @@
 # Barnskoj
 
-**Lek, skapa, klura och upptäck.**
+**Lek, skapa, klura och upptäck – för barn, unga och vuxna.**
 
-Barnskoj är ett öppet och växande bibliotek med roliga aktiviteter för barn, unga och vuxna – från lekfulla barnblad till nostalgiska illustrations- och aktivitetsböcker för vuxna. Här ska det finnas både utskrivbara material och, på sikt, digitala aktiviteter som kan användas hemma, i skolan, på fritids eller tillsammans med andra.
+Barnskoj är under uppbyggnad som ett generationsöverskridande kultur-, originalmotiv- och aktivitetsbibliotek. **Ingen färdig utskrivbar aktivitet har publicerats ännu.** Underlagen ska bli prick-till-prick, målarbilder, mandala, kreativt spel och nostalgiska vuxenböcker.
 
-> Status: Grundstruktur v0.1. Innehållsidéer är inte färdigproducerade eller kvalitetssäkrade aktivitetsblad.
+## Tre arbetslager
 
-## Hitta något roligt
-
-| Bibliotek | Innehåll | Status |
+| Del | Innehåll | Faktiskt tillstånd |
 | --- | --- | --- |
-| [Prick till prick](library/prick-till-prick/README.md) | Motiv från vardag, sport, gaming och populärkultur 1950–2025 | Planerat |
-| Måla & skapa | Målarbilder, pixel art, symmetri, teckning | Planerat |
-| Klurigt & smart | Labyrinter, sudoku, rebusar, logik | Planerat |
-| Ord & språk | Ordsök, korsord, hemliga meddelanden | Planerat |
-| Spel & utmaningar | Bingo, memory, skattjakter | Planerat |
-| Bygg & konstruera | Pappersmodeller, origami, byggutmaningar | Planerat |
-| Experiment | Naturvetenskap, optiska illusioner | Planerat |
-| Rörelse & äventyr | Hinderbanor, utomhusuppdrag | Planerat |
-| Musik & rytm | Ljudbingo, rytmlekar, musikquiz | Planerat |
-| Tillsammans | Samarbetslekar, familje- och gruppuppdrag | Planerat |
+| [Kulturreferenser](catalog/entities.csv) | 485 figurer, personer/grupper och programvärldar, 90 källadresser, 39 avgränsade faktabelägg | Forskningsdata, inte bildlicenser |
+| [Kreativa motiv](creative/README.md) | 32 självständiga originalkoncept, 12 teman, 6 format och 8 generationskollektioner | Förslag – inga färdiga originalbilder |
+| [Färdiga aktiviteter och assets](production/README.md) | Aktivitetsblad, originalfiler, facit, rättighetsbeslut och trycktest | **0 producerade/publicerade** |
 
-## Generationer och kulturarv
+Den automatiskt uppdaterbara statusen finns i [discovery/metrics.json](discovery/metrics.json).
 
-Samma bibliotek täcker **1950-talet till 2025 och vidare**. Det går att filtrera efter både **motivets epok** och **målgrupp**. Vuxnas böcker med minnen från barndomen ska ha egen redaktionell stil och komplexitet, inte marknadsföras som barnarbetsblad.
+## Sök, kombinera och skapa
 
-- [Generationsbiblioteket 1950–2025](catalog/decades/README.md)
-- [Vuxenformat: nostalgiska prick-till-prick och mandalaböcker](library/adult-nostalgia/README.md)
-- [Figurbibliotek, 246 researchposter](catalog/characters.csv)
-- [Kändisbibliotek, 184 researchposter](catalog/celebrities.csv)
-- [Kulturarv och barnprogram](catalog/heritage.md)
-- [Rättighetspolicy](docs/RIGHTS.md)
+[Upptäcktsgrafen](discovery/README.md) binder ihop **680 noder, 3 073 relationer och 704 kreativa förslag** genom epoker, intressen, figurer, sport, musik, barn-tv, originalmotiv, format och bokserier.
 
-## Principer
+- [Filter- och sökindex](discovery/search.csv)
+- [Relationer med bevisgränser](discovery/edges.csv)
+- [Redaktionella korskopplingsförslag](discovery/crosslinks.csv)
+- [Generationsbibliotek 1950–2025](catalog/decades/collections.csv)
 
-- **Roligt först:** Innehåll ska väcka lust och nyfikenhet, inte upplevas som en skoluppgift.
-- **Valfrihet:** Barn kan välja efter intresse, inte kön eller snäva åldersnormer.
-- **Flera sätt att delta:** Anpassningar för motorik, perception, läsning och koncentration.
-- **Lätt att använda:** Utskrifter i A4 och tydliga instruktioner; digitalt när det tillför värde.
-- **Barncentrerat:** Ingen insamling av barns personuppgifter som standard.
-- **Lagligt att dela:** Originalmaterial eller tydligt licensierat material; kända varumärken och karaktärer används inte som frikort för kopiering.
-- **Verifierbar kvalitet:** Varje aktivitet testas före publicering.
+Kör lokalt i repot:
 
-## Referensbibliotek och källor
-- [430 individuella fördjupningsregister](catalog/README.md) — 246 figurer och 184 personer/grupper, alla med egna länkade profiler
-- [Sourcing- och källregister](sources/registry.csv) — 90 registrerade källposter
-- [Registerrevision och begränsningar](catalog/REGISTRY_AUDIT.md)
-
-Fördjupningsregistren byggs stegvis. 36 entiteter har avgränsade faktabelägg (Q2), 240 har ännu endast källspår (Q1) och 154 saknar källa (Q0); ingen är fullständigt djupgranskad (Q3). Ingen profil innebär rätt till ett fotograferat eller illustrerat originalverk.
-
-### Individuella källdossierer
-Alla 430 entiteter har [en fördjupningsprofil](profiles/) och [ett källdossier](sources/entity-dossiers/) länkade via katalogen. [Aktuell kvalitetsrapport](quality/COVERAGE.md) visar Q0 154, Q1 240, Q2 36 och Q3 0. Endast Q2-posterna har något specificerat faktabelägg; inget objekt har därmed godkänts för kopiering eller kommersiell bildproduktion.
-
-## Taggsystem och evidens
-- [117 taggar och 2 813 kopplingar](tags/README.md)
-- [55 universum](catalog/universes.csv)
-- [Identitet och alias](catalog/identity_registry.csv)
-- [39 kontrollerade faktabelägg](evidence/claims.csv)
-- [Aktuell kvalitetsrevision](quality/COVERAGE.md)
-- [Automatisk CI-validering](.github/workflows/catalog-validation.yml)
-
-## Paritetsstandard för samtliga entiteter
-
-**485 objekt** (inklusive 55 programvärldar) använder samma 17 attribut, 14 obligatoriska taggdimensioner och samma fältspecifika evidensstatus. Se [gemensam katalog](catalog/entities.csv), [standard för verifierbarhet](docs/PARITY_STANDARD.md) och [individuella datakort](records/).
-
-**Strukturell paritet är PASS; faktisk forskningsparitet är fortfarande BLOCKED.** Q0: 191 objekt utan källa, Q1: 257 med enbart källspår, Q2: 37 med något faktabelägg, Q3: 0. [Forskningsskulden och likvärdiga krav](quality/RESEARCH_PARITY.md) är explicit dokumenterade.
-
-## För utveckling
-
-- [Produktvision och mål](docs/PRODUCT.md)
-- [Innehållsmodell och metadata](docs/CONTENT_MODEL.md)
-- [Roadmap](docs/ROADMAP.md)
-- [Bidrag och kvalitetskontroll](CONTRIBUTING.md)
-
-### Projektstruktur
-
-```text
-Barnskoj/
-├── README.md
-├── CONTRIBUTING.md
-├── docs/
-│   ├── PRODUCT.md
-│   ├── CONTENT_MODEL.md
-│   └── ROADMAP.md
-└── library/
-    └── prick-till-prick/
-        └── README.md
+```bash
+python scripts/query_discovery.py --entity BS-CHAR-0001
+python scripts/query_discovery.py --theme music --era 1970s
 ```
 
-**Versionsprincip:** Idéer, prototyper och publicerat material hålls åtskilda. Ingen aktivitet markeras som färdig innan utskrift/användning har kontrollerats.
+Att en skyddad figur eller kändis leder till ett tema innebär **inte** att vi får reproducera karaktären eller porträttet.
+
+## Forskningskvalitet och taggning
+
+Alla 485 objekt har [17 obligatoriska attribut och 14 taggdimensioner](docs/PARITY_STANDARD.md). [134 taggdefinitioner](tags/taxonomy.csv) och 8 086 taggkopplingar möjliggör kombinationer. Verifieringsstatus enligt [QA-registret](quality/RESEARCH_PARITY.md): **Q0 191 · Q1 257 · Q2 37 · Q3 0**.
+
+En källadress är inte en kontrollerad faktauppgift. Ett datakort är inte en färdig illustration. Ett motivkoncept är inte en publicerad aktivitet.
+
+## Produktionsflödet
+
+```text
+Kulturreferens → tema/epok → självständigt originalmotiv
+→ aktivitetsformat → skapad illustration + ev. facit
+→ rättighets-, tillgänglighets- och tryckgranskning
+→ registrerad och publicerad aktivitet/bok
+```
+
+[Prick-till-prick](library/prick-till-prick/README.md) · [Vuxennostalgi](library/adult-nostalgia/README.md) · [Produktvision](docs/PRODUCT.md) · [Release-grind](production/RELEASE_GATE.md).
+
+## Uppdatera dataset
+
+**Redigera källan, generera vyerna.** Den befintliga entitetsmodellen har ännu äldre parallella katalogfiler som behöver en separat, versionssäker konsolidering. Det nya kreativ-/discovery-lagret är automatiskt reproducerbart:
+
+```bash
+python scripts/build_discovery.py
+python scripts/build_discovery.py --check
+python scripts/validate_catalog.py
+python scripts/validate_parity.py
+python scripts/validate_production.py
+python -m unittest discover -s tests -v
+```
+
+[Systemkartan](docs/SYSTEM_ARCHITECTURE.md) visar källor och härledda vyer. [Arkitekturrevision](docs/ARCHITECTURE_AUDIT_2026-11-20.md) beskriver flaskhalsar och prioriterad utveckling. [Roadmap](docs/ROADMAP.md) följer leveranser.
+
+## CDX
+
+[Det lokala CDX-ankaret](.cdx/anchor.json) har versionspinnad Conductellence-policy **1.0.0** och en [CI-kontroll](.github/workflows/cdx-anchor-audit.yml).
+
+**Status: ANCHOR_DECLARED / NOT_VERIFIED.** Barnskoj har ännu ingen central CDX Estate-admission och ingen verifierad consequential runtime. [CDX-status och gränser](.cdx/README.md).
+
+**Projektregel:** Källa ≠ faktabelägg ≠ bildlicens. Koncept ≠ producerat material. Strukturell QA ≠ fullständig forskning.

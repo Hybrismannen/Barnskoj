@@ -8,7 +8,7 @@ Barnskoj ska vara **ett brett aktivitets- och motivationsbibliotek för barn, un
 - 90 käll-URL:er, 39 enskilda faktabelägg; Q0 191, Q1 257, Q2 37 och Q3 0.
 - 17 obligatoriska attribut och 14 obligatoriska taggdimensioner per objekt; 8 245 attributrader och 8 086 taggkopplingar.
 - Många parallella presentationer per entitet: kategori-CSV, samlad CSV, originalprofil, källdossier, standarddatakort, per-attribut-evidens och QA-export.
-- Två aktivitetsfamiljer dokumenterade på förslagsnivå; ingen publicerad, testad utskrivbar aktivitet/illustrationsbok i GitHub vid revisionen.
+- Tio aktivitetsfamiljer planerade, men ingen publicerad eller trycktestad aktivitet/illustrationsbok i GitHub vid revisionen.
 - Ingen dokumenterad licens för reproduktion av skyddade figurer, porträtt eller logotyper.
 
 ## 3. Diagnos — grundläggande obalans

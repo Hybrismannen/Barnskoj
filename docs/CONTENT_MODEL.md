@@ -49,6 +49,13 @@ Varje aktivitet får en egen mapp med metadata, tillgångar och eventuell instru
 - silhouette_readability
 - solution_asset
 
+## Faktisk produktion och återanvändbarhet
+- `creative/motifs.json` innehåller originalkoncept, inte redigerbara bildoriginal eller publicerade aktiviteter.
+- `discovery/*.csv` är genererade sök- och relationsvyer; ändra aldrig dessa för hand.
+- `production/activities.csv` och `production/assets.csv` registrerar verklig produktion, facit och rättighets-/tryckgrindar.
+- `catalog/entities.csv` är ett gemensamt läsgränssnitt men äldre spegelregister måste fortfarande synkas vid ändringar.
+- Se [systemarkitekturen](SYSTEM_ARCHITECTURE.md) och [produktionsgrinden](../production/RELEASE_GATE.md).
+
 ## Mappmönster
 ```
 library/<category>/<activity-id>/

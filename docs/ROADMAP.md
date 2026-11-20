@@ -17,7 +17,7 @@
 - [ ] Testa vuxenlayout: A4/A5, bindningsmarginal och nummerläsbarhet
 
 ## FAS 0C – Taggsystem och kvalitetsdjup
-- [x] Taxonomi: 117 taggar och 2 813 entitetskopplingar
+- [x] Taxonomi: 134 taggar och 8 086 entitetskopplingar
 - [x] 55 universumsprofiler, alias och identitetsregister
 - [x] 430 synkroniserade källdossierer och QA-klassning
 - [x] 39 atomära faktabelägg från 13 kontrollgranskade källsidor
@@ -33,6 +33,15 @@
 - [ ] Källgranska påståenden för 257 Q1-entiteter
 - [ ] Fullständig Q3-verifiering för samtliga 485 objekt
 - [ ] Objektspecifik upphovs- och rättighetsgranskning inför bokproduktion
+
+## FAS 0E – Graf, originalmotiv, produktionsjournal och CDX (2026-11-20)
+- [x] 32 självständiga originalkoncept och 12 intresseteman
+- [x] Automatiskt genererad korskopplingsgraf (680 noder, 3 073 relationer, 704 idéförslag)
+- [x] Kodstyrda sökvyer och CI-kontroll av stale outputs
+- [x] Separat aktivitets- och assetjournal med fail-closed publiceringsgrind
+- [x] Lokalt CDX 1.0.0-ankare, CI-testat som deklaration
+- [ ] Central CDX-admission och oberoende kontroll
+- [ ] Konsoliderat entitets-write-model efter genomgång av alla konsumenter
 
 ## FAS 1 – Utskrivbar MVP
 - [ ] Producera 10 originalmotiv prick-till-prick med facit

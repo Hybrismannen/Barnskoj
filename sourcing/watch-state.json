@@ -1,4 +1,161 @@
 {
   "schema": "barnskoj.sourcewatch/v1",
-  "sources": {}
+  "sources": {
+    "WIK-DC-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "3790209"
+    },
+    "WIK-DC-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "\"nvi61c85rf8osk\""
+    },
+    "WIK-DC-003": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "3995814"
+    },
+    "WIK-DC-004": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "W/\"a1145c9f59d2ad279af514aaa9a71dfb--gzip\""
+    },
+    "WIK-DIS-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "6611836"
+    },
+    "WIK-GOT-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "746628"
+    },
+    "WIK-GOT-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "749182"
+    },
+    "WIK-GOT-003": {
+      "fetch_status": "ACCESS_BLOCKED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-GOT-004": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "362279"
+    },
+    "WIK-GOT-005": {
+      "fetch_status": "ACCESS_BLOCKED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-HP-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "2015137"
+    },
+    "WIK-HP-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "\"3e1f1j3h2r3po0\""
+    },
+    "WIK-LOTR-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "351785"
+    },
+    "WIK-LOTR-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "443396"
+    },
+    "WIK-LOTR-003": {
+      "fetch_status": "NO_STABLE_HEADER",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-LOTR-004": {
+      "fetch_status": "NO_STABLE_HEADER",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-LOTR-005": {
+      "fetch_status": "NO_STABLE_HEADER",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-MAR-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "10498782"
+    },
+    "WIK-MAR-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "11285903"
+    },
+    "WIK-MAR-003": {
+      "fetch_status": "ACCESS_BLOCKED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-MAR-004": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "Fri, 20 Nov 2026 04:54:32 GMT"
+    },
+    "WIK-MOO-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "W/\"sfr:computation:v2:7a06fc283b2321d4baa47fb7a95b883707c42af11130153dda9f4ac7390de881:4c8f33e35b19d1fea8d9ae62d90ccb09\""
+    },
+    "WIK-POK-001": {
+      "fetch_status": "ACCESS_BLOCKED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-POK-002": {
+      "fetch_status": "NO_STABLE_HEADER",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-SES-001": {
+      "fetch_status": "NO_STABLE_HEADER",
+      "last_attempt_utc": "2026-11-20T04:54:30Z"
+    },
+    "WIK-SES-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "1883060"
+    },
+    "WIK-SES-003": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "1850262"
+    },
+    "WIK-SW-001": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "15866857"
+    },
+    "WIK-SW-002": {
+      "fetch_status": "OBSERVED",
+      "last_attempt_utc": "2026-11-20T04:54:30Z",
+      "last_observed_utc": "2026-11-20T04:54:30Z",
+      "version": "Fri, 20 Nov 2026 04:03:51 GMT"
+    }
+  }
 }

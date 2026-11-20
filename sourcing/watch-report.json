@@ -1,9 +1,12 @@
 {
-  "status": "NEVER_RUN",
-  "checked_attempts": 0,
+  "checked_attempts": 29,
+  "checked_utc": "2026-11-20T04:54:30Z",
   "new_review_events": 0,
   "pending_review_events": 0,
-  "statuses": {},
-  "checked_utc": null,
-  "unobserved_sources": 29
+  "statuses": {
+    "ACCESS_BLOCKED": 4,
+    "NO_STABLE_HEADER": 5,
+    "OBSERVED": 20
+  },
+  "unobserved_sources": 0
 }

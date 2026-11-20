@@ -1,0 +1,10 @@
+{
+  "schema": "barnskoj.wiki/publication-v1",
+  "remote_wiki_repo": "Hybrismannen/Barnskoj.wiki",
+  "published": false,
+  "remote_commit_sha": null,
+  "verified_at": null,
+  "verified_by": null,
+  "source_head_sha": null,
+  "reason": "Wiki remote commit not yet observed or independently attested; initial page and write permission may be required"
+}

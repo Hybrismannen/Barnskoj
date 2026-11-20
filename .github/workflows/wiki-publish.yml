@@ -1,0 +1,66 @@
+name: Publish Barnskoj GitHub Wiki
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'wiki-src/**'
+      - 'scripts/build_wiki.py'
+      - '.github/workflows/wiki-publish.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: barnskoj-wiki-publish
+  cancel-in-progress: false
+jobs:
+  publish-wiki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Ensure generated index pages are current
+        run: python scripts/build_wiki.py --check
+      - name: Push all managed Markdown pages to GitHub Wiki
+        env:
+          WIKI_TOKEN: ${{ secrets.BARNSKOJ_WIKI_TOKEN || github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # First Wiki page must be created once using GitHub's Wiki tab.
+          # A token that can write to the Wiki Git repository is required.
+          target="https://github.com/${GITHUB_REPOSITORY}.wiki.git"
+          export GIT_TERMINAL_PROMPT=0
+          askpass="$(mktemp)"
+          printf '#!/bin/sh\ncase "$1" in *Username*) printf "x-access-token" ;; *Password*) printf "%%s" "$WIKI_TOKEN" ;; esac\n' > "$askpass"
+          chmod 700 "$askpass"
+          export GIT_ASKPASS="$askpass"
+          trap 'rm -f "$askpass"' EXIT
+          if ! git ls-remote "$target" HEAD >/dev/null; then
+            echo "::error::Wiki missing or not authorized. Open the GitHub Wiki tab, create the first Home page, then grant Wiki write permission to BARNSKOJ_WIKI_TOKEN."
+            exit 1
+          fi
+          git clone --quiet "$target" "$RUNNER_TEMP/barnskoj-wiki"
+          for f in wiki-src/*.md; do
+            cp "$f" "$RUNNER_TEMP/barnskoj-wiki/$(basename "$f")"
+          done
+          cd "$RUNNER_TEMP/barnskoj-wiki"
+          git config user.name "barnskoj-wiki-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- '*.md'
+          if git diff --cached --quiet; then
+            echo "Wiki already synchronized."
+          else
+            git commit -m "Sync Wiki pages from Barnskoj main" >/dev/null
+            git push origin HEAD
+          fi
+          expected="$(git rev-parse HEAD)"
+          observed="$(git ls-remote "$target" HEAD | cut -f1)"
+          test "$expected" = "$observed" || {
+            echo "::error::Wiki remote SHA did not match published content"
+            exit 1
+          }
+          echo "WIKI_REMOTE_VERIFIED_SHA=$observed" >> "$GITHUB_ENV"
+          echo "Wiki remote Git commit verified: $observed"

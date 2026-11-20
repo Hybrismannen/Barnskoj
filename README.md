@@ -66,7 +66,7 @@ python scripts/doctor.py
 [DevOps – exakt tre arbetspaket](devops/WORKPACKAGES.md) och [driftrutin](devops/RUNBOOK.md) beskriver vad som får redigeras, genereras och publiceras. [Systemkartan](docs/SYSTEM_ARCHITECTURE.md) visar källor och härledda vyer. [Arkitekturrevision](docs/ARCHITECTURE_AUDIT_2026-11-20.md) beskriver flaskhalsar och prioriterad utveckling. [Roadmap](docs/ROADMAP.md) följer leveranser.
 
 ## Wikis, originalbilder och rättigheter – bindande förgrind
-- [10 franchisefamiljer och 26 uppdateringsbevakade universumkällor](sourcing/README.md): Marvel, DC, Westeros/Game of Thrones, Tolkien, Sesame Street, Star Wars, Pokémon, Harry Potter, Disney och Mumin.
+- [10 franchisefamiljer och 29 registrerade universumkällor](sourcing/README.md): Marvel, DC, Westeros/Game of Thrones, Tolkien, Sesame Street, Star Wars, Pokémon, Harry Potter, Disney och Mumin.
 - [526 individuella krav på originalbild och proveniens](images/README.md): 485 entiteter + 32 motiv + 9 staged kontinuitetsvarianter.
 - [Rättighetsmatris för 526 objekt](rights/README.md): skiljer Fandoms wiki-textlicens från faktisk bildlicens och upphovsrätt till figuren; kommersiell målarbok och privat användning prövas separat.
 - [Svensk GitHub Wiki-handbok](wiki-src/Home.md) med [fullt bildindex](wiki-src/Bildindex.md), [källnätverk](wiki-src/Universumkallor.md) och [CC-licensmatris](wiki-src/Rattighetsmatris.md).

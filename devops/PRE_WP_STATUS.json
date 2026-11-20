@@ -7,10 +7,10 @@
   "franchise_families": 10,
   "historical_wps": "Previously committed WP01–WP03 remain in Git history; this gate is prospective.",
   "image_status_counts": {
-    "MISSING": 524,
-    "SOURCE_CANDIDATE": 2
+    "MISSING": 517,
+    "SOURCE_CANDIDATE": 9
   },
-  "monitored_wiki_source_pages": 26,
+  "monitored_wiki_source_pages": 29,
   "original_image_requirements": 526,
   "original_images_confirmed": 0,
   "prerequisite_scope": "wiki_then_all_images_then_new_WP_signoff",

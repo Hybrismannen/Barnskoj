@@ -2,7 +2,7 @@
 
 Fan-wikis och officiella register bevakas som **källspår**. En ändrad artikel skapar ett granskningsärende, inte automatiskt ett nytt faktum.
 
-**10 källfamiljer, 26 registrerade webbsidor och 9 iscensatta kandidater.**
+**10 källfamiljer, 29 registrerade webbsidor och 9 iscensatta kandidater.**
 
 ## Marvel Comics / MCU
 
@@ -30,6 +30,7 @@ Fan-wikis och officiella register bevakas som **källspår**. En ändrad artikel
 | [DC Comics Database (Fandom)](https://dc.fandom.com/wiki/DC_Comics_Database) | fan_wiki | comics | mediawiki |
 | [Batman official character profile (DC)](https://www.dc.com/characters/batman) | rights_holder | comic_main | http_headers |
 | [Batman Bruce Wayne (DC Database)](https://dc.fandom.com/wiki/Batman_(Bruce_Wayne)) | fan_wiki | comics_multiverse | mediawiki |
+| [Michael Zeck Batman style guide original artwork](https://mzchecklist.myportfolio.com/batman) | artist_original | DC_artist_original | http_headers |
 
 **Objekt som väntar på identitetsgranskning:** Batman / Bruce Wayne (DC_comics_multiverse).
 
@@ -45,6 +46,7 @@ Fan-wikis och officiella register bevakas som **källspår**. En ändrad artikel
 | [Daenerys Targaryen (Wiki of Westeros)](https://gameofthrones.fandom.com/wiki/Daenerys_Targaryen) | fan_wiki | HBO_screen | mediawiki |
 | [Game of Thrones cast (HBO Max)](https://www.hbomax.com/show/4f6b4985-2dc9-4ab6-ac79-d60f0860b0ac/cast-and-crew) | rights_holder | HBO_screen | http_headers |
 | [Daenerys Targaryen (A Wiki of Ice and Fire)](https://awoiaf.westeros.org/index.php/Daenerys_Targaryen) | independent_wiki | ASOIAF_books | mediawiki |
+| [Game of Thrones Season 8 press photography (WarnerMedia)](https://medium.com/warnermediaent/game-of-thrones-s8-photography-ece63efb743c) | rights_holder | HBO_screen_stills | http_headers |
 
 **Objekt som väntar på identitetsgranskning:** Daenerys Targaryen / Khaleesi (HBO_screen), Daenerys Targaryen (book continuity) (ASOIAF_books).
 
@@ -60,6 +62,7 @@ Fan-wikis och officiella register bevakas som **källspår**. En ändrad artikel
 | [Gandalf (Tolkien Gateway)](https://tolkiengateway.net/wiki/Gandalf) | independent_wiki | Tolkien_books | mediawiki |
 | [The Lord of the Rings (Tolkien Estate)](https://www.tolkienestate.com/writing/the-lord-of-the-rings/) | rights_holder | Tolkien_books | http_headers |
 | [Tolkien Estate rights FAQs](https://www.tolkienestate.com/frequently-asked-questions-and-links/) | rights_holder | rights_info | http_headers |
+| [David T. Wenzel original illustrated Middle-earth artwork](https://davidwenzelart.blogspot.com/2011/06/middle-earth-world-of-tolkien.html) | artist_original | original_illustration | http_headers |
 
 **Objekt som väntar på identitetsgranskning:** Gandalf (Tolkien text) (Tolkien_books), Gandalf (film adaptation) (film_adaptations).
 

@@ -4,7 +4,7 @@
 
 **Mål: 526** (485 katalogentiteter + 32 motiv + 9 nya granskningskandidater).
 
-Status: MISSING: 524, SOURCE_CANDIDATE: 2.
+Status: MISSING: 517, SOURCE_CANDIDATE: 9.
 
 - [Figurer och barn-tv](Bildindex-Figurer)
 - [Personer och grupper](Bildindex-Personer)

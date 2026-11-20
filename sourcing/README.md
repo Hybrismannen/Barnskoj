@@ -1,6 +1,6 @@
 # Levande universumkällor – Barnskoj
 
-**10 franchisegrupper**, **26 länkade wiki-/ägarsidor** och **9 iscensatta, ännu ej kanoniserade figur-/personvarianter**. De befintliga 485 ID:na bevaras orörda tills varje nytt objekt har genomgått identitets- och versionsgranskning.
+**10 franchisegrupper**, **29 länkade wiki-/ägarsidor** och **9 iscensatta, ännu ej kanoniserade figur-/personvarianter**. De befintliga 485 ID:na bevaras orörda tills varje nytt objekt har genomgått identitets- och versionsgranskning.
 
 - [Franchisekorsning](franchises.csv): samma berättelse kan ha olika ägare och versioner (bok, film, serietidning, spel).
 - [Wiki- och originalägares källor](wiki_sources.csv): källa klassad som `rights_holder`, `fan_wiki` eller `independent_wiki`.

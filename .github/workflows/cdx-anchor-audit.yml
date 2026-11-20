@@ -1,0 +1,25 @@
+name: CDX local anchor integrity
+on:
+  push:
+    paths:
+      - '.cdx/**'
+      - '.github/workflows/cdx-anchor-audit.yml'
+  pull_request:
+    paths:
+      - '.cdx/**'
+      - '.github/workflows/cdx-anchor-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-anchor-declaration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical CDX anchor contract
+        run: python .cdx/check_anchor.py
+      - name: Reject unsupported binding or runtime standing
+        run: python .cdx/check_local_state.py

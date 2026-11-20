@@ -1,0 +1,49 @@
+{
+  "schema": "cdx.anchor/v1",
+  "system_short_name": "CDX",
+  "governed_surface": {
+    "kind": "REPOSITORY",
+    "identity": "Hybrismannen/Barnskoj",
+    "repository": "Hybrismannen/Barnskoj",
+    "system_id": "BARNSKOJ"
+  },
+  "cdx_authority": {
+    "repository": "Hybrismannen/Conductellence-",
+    "canonical_name": "Conductellence",
+    "short_name": "CDX"
+  },
+  "law_id": "CDX-LAW-001",
+  "binding_mode": "PINNED_RELEASE",
+  "policy_pin": {
+    "ref_type": "RELEASE",
+    "ref": "1.0.0",
+    "digest": "git-blob-sha1:55dbcdac2f822b59a5a5f0f19eeadfa61d2c7ed0"
+  },
+  "binding_state": "ANCHOR_DECLARED",
+  "authority_context": {
+    "authority_ref_required": true,
+    "mandate_ref_required": true
+  },
+  "local_enforcement": {
+    "owner": "Hybrismannen/Barnskoj",
+    "points": [
+      "REPOSITORY_CI_REFERENCE_DATA_INTEGRITY"
+    ],
+    "fail_closed_for_consequential_effects": true
+  },
+  "conformance": {
+    "ci_workflow": ".github/workflows/cdx-anchor-audit.yml",
+    "adapter_contract": "CDX-RUNTIME-001",
+    "runtime_state": "NOT_REQUIRED_BY_CURRENT_ROLE_STATIC_DATASET"
+  },
+  "evidence": {
+    "spetl_required": false,
+    "preservation_target": "GITHUB_ACTIONS_CI_LOGS_NOT_INDEPENDENT_SPETL",
+    "reconciliation_surface": "CDX_ESTATE_REGISTRY_ADMISSION_PENDING"
+  },
+  "verification": {
+    "last_verified_at": null,
+    "verification_state": "NOT_VERIFIED",
+    "verified_against": null
+  }
+}

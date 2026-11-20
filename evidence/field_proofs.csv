@@ -1,0 +1,7 @@
+"entity_id","attribute","claim_id","source_id"
+"BS-CHAR-0019","documented_swedish_broadcast_year","CLM-0031","SRC002"
+"BS-CHAR-0020","documented_swedish_broadcast_year","CLM-0033","SRC002"
+"BS-CHAR-0036","first_appearance_year","CLM-0024","SRC089"
+"BS-CHAR-0041","first_appearance_year","CLM-0025","SRC088"
+"BS-CHAR-0041","credited_creator","CLM-0025","SRC088"
+"BS-WORLD-001","first_appearance_year","CLM-0039","SRC005"

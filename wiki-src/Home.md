@@ -7,10 +7,12 @@ Barnskoj skiljer mellan 485 kulturreferensentiteter, 32 originalmotivkoncept och
 ## Hitta rätt
 - [Systemöversikt](Systemoversikt) – entiteter, universum, grafer, motiv och produktion.
 - [Bildbibliotek](Bildbibliotek) – krav på verkliga källbilder och deras originalproveniens.
-- [Bildindex](Bildindex) – alla 517 registrerade bildbehov och källstatus.
+- [Bildindex](Bildindex) – alla 526 bildbehov (485 entiteter, 32 motiv, 9 nya figurvarianter).
 - [Forskning och källor](Forskning-och-kallor) – originalkällor, claim-spårning, Q0–Q3.
 - [Aktiviteter](Aktiviteter) – originalmotiv, A4-prototyper och facit.
 - [Rättigheter](Rattigheter) – originalbild kontra licensierad återanvändning.
+- [Universumkällor](Universumkallor) – Marvel, DC, Westeros, Tolkien, Sesame och fler.
+- [Rättighetsmatris](Rattighetsmatris) – privata, kommersiella och CC-licensierade användningar.
 - [DevOps](DevOps) – förhandsgrind för tre WP, underhåll och CI.
 - [CDX](CDX) – aktuell lokal governance och central verificeringsspärr.
 

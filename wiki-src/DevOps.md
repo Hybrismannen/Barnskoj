@@ -7,8 +7,9 @@ De tidigare tre arbetspaketen **WP01 data**, **WP02 DevOps-kvalitet** och **WP03
 Innan en ny iteration av WP01–WP03 deklareras genomförd ska följande vara uppfyllt:
 
 - **Wiki-gate:** De här sidorna har publicerats och kontrollerats i GitHubs **separata** Wiki-repository.
-- **Bild-gate:** Samtliga 485 entiteter och 32 motiv har en faktisk originalbilds-/referenssida och verifierad proveniens. Ett tomt fält eller sökträff duger inte.
+- **Bild-gate:** Samtliga 485 entiteter, 32 motiv och 9 nya universumkandidater (526 behov) har en faktisk originalbilds-/referenssida och verifierad proveniens. Ett tomt fält eller sökträff duger inte.
 - **Rights-gate:** För publiceringsarbete krävs separat licens- och bildrättsbeslut. Källverifierad research är inte tillräcklig.
+- **Källbevakningsgate:** Ändringar från käll-wikis går till granskning, inte direkt till faktaregistret.
 - **CI-gate:** Kanoniska källor och genererade vyer är synkade och projektets kvalitetskontroller passerar.
 
 Dessa förkrav kontrolleras med [prerequisite-gaten](https://github.com/Hybrismannen/Barnskoj/blob/main/scripts/check_wp_prerequisites.py), som ska blockera i stället för att ge falskt godkännande.

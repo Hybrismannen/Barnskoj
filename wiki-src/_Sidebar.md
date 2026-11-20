@@ -1,0 +1,10 @@
+### Barnskoj
+- [Hem](Home)
+- [Systemöversikt](Systemoversikt)
+- [Originalbilder](Bildbibliotek)
+- [Bildindex – 517 poster](Bildindex)
+- [Forskning och källor](Forskning-och-kallor)
+- [Aktiviteter](Aktiviteter)
+- [Rättigheter](Rattigheter)
+- [DevOps / WP-grind](DevOps)
+- [CDX](CDX)

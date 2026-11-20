@@ -304,8 +304,7 @@ def main():
         p=ROOT/name
         if args.check:
             if name.startswith("records/"):
-                # Legacy records are preserved until first canonical regeneration.
-                if not p.is_file() or not (p.read_text(encoding="utf-8").startswith("# ")):
+                if not p.is_file() or p.read_text(encoding="utf-8") != expected:
                     stale.append(name)
             elif not p.is_file():
                 stale.append(name)

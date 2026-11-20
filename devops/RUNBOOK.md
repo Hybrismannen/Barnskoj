@@ -4,7 +4,7 @@
 ```bash
 python scripts/doctor.py
 ```
-Kommandot kör tio read-only-grindar: synkning av katalogen, äldre integritetskontroller, fältevidens/paritet, discovery, SVG, facit, publiceringsrätt, CDX-deklaration och regressionstester. Ett FAIL stoppar ändringen. Inget steg publicerar, licensierar eller ändrar extern myndighet.
+Kommandot kör femton read-only-grindar: synkning av katalogen, äldre integritetskontroller, fältevidens/paritet, discovery, SVG, facit, publiceringsrätt, CDX-deklaration och regressionstester. Ett FAIL stoppar ändringen. Inget steg publicerar, licensierar eller ändrar extern myndighet.
 
 ## Ändra entitetsfakta eller namn
 1. Redigera [entities_base.csv](../catalog/source/entities_base.csv) (gemensamma attribut) eller [legacy_details.csv](../catalog/source/legacy_details.csv) (kategoriunika fält). Bevara beständiga ID.
@@ -26,3 +26,8 @@ Redigera [prototype_specs.json](../production/prototype_specs.json), kör `pytho
 
 ## CDX
 `.cdx/anchor.json` är bundet till central CDX 1.0.0-policy men står **ANCHOR_DECLARED / NOT_VERIFIED**. Lokal CI kan inte besluta central admission. Skyddad runtime kräver separat governance om konsekventa effekter tillförs.
+
+## Bild- och Wiki-sourcingen (förkrav före nya WP)
+Redigera [wiki_sources.csv](../sourcing/wiki_sources.csv), [bildkravsregistret](../images/requirements.csv) och [staged-bildkraven](../images/staged_requirements.csv) när en verklig källa har hittats. Kontrollera alltid upphov, originalfil, avsedd licens och underliggande figurrätt. Kör `python scripts/build_rights.py`, `python scripts/build_wiki.py`, `python scripts/check_wp_prerequisites.py`, sedan `python scripts/doctor.py`.
+
+För att godkänna nästa iteration krävs explicit `python scripts/check_wp_prerequisites.py --require-ready`; för närvarande returnerar den **BLOCKED**. Wiki-publishing styrs av [Wiki-runbook](../docs/WIKI_WORKFLOW.md). Källbevakningen ger PR för mänsklig granskning och har ännu inte ersatt någon kanonisk uppgift automatiskt.

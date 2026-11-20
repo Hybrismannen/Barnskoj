@@ -1,14 +1,24 @@
 {
-  "schema": "barnskoj.pre_wp/v1",
-  "as_of": "2026-11-20",
-  "wp_history": "WP01-WP03 from prior iteration remain recorded as technically completed, not retroactively undone.",
-  "new_prerequisites": {
-    "wiki_content_prepared": true,
-    "wiki_remote_publication_verified": false,
-    "original_image_requirement_rows": 517,
-    "original_images_source_confirmed": 0,
-    "all_visual_sources_complete": false
+  "automatic_private_use_permission": false,
+  "blockers": [
+    "Wiki pages have not been published AND remote SHA independently recorded",
+    "526 image provenance records remain unverified"
+  ],
+  "franchise_families": 10,
+  "historical_wps": "Previously committed WP01–WP03 remain in Git history; this gate is prospective.",
+  "image_status_counts": {
+    "MISSING": 524,
+    "SOURCE_CANDIDATE": 2
   },
+  "monitored_wiki_source_pages": 26,
+  "original_image_requirements": 526,
+  "original_images_confirmed": 0,
+  "prerequisite_scope": "wiki_then_all_images_then_new_WP_signoff",
   "readiness": "BLOCKED",
-  "reason": "Wiki publication and original image provenance not verified for all 517 targets; future WP approval requires separate live checks."
+  "reference_date": "2026-11-20",
+  "right_to_sell_granted_automatically": false,
+  "schema": "barnskoj.pre_wp/v2",
+  "wiki_prepared": true,
+  "wiki_remote_publication_verified": false,
+  "wiki_remote_sha": null
 }

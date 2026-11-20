@@ -10,9 +10,12 @@ on:
       - 'sources/**'
       - 'evidence/**'
       - 'quality/**'
+      - 'images/**'
+      - 'rights/**'
+      - 'sourcing/**'
+      - 'wiki-src/**'
       - 'creative/**'
       - 'production/**'
-      - 'devops/**'
       - 'discovery/**'
       - 'scripts/**'
       - 'tests/**'
@@ -47,5 +50,15 @@ jobs:
         run: |
           python scripts/query_discovery.py --entity BS-CHAR-0001
           python scripts/query_discovery.py --theme music --era 1970s --limit 4
+      - name: Validate franchise Wiki sources and image/legal assignments
+        run: python scripts/validate_source_model.py
+      - name: Check copyright triage derived ledger
+        run: python scripts/build_rights.py --check
+      - name: Check Wiki source pages and picture indexes
+        run: python scripts/build_wiki.py --check
+      - name: Verify prospective pre-WP state (BLOCKED is acceptable; do not fake readiness)
+        run: python scripts/check_wp_prerequisites.py --check
+      - name: Exercise source watcher offline
+        run: python scripts/watch_wiki_sources.py --check-fixture
       - name: Run integrity tests
         run: python -m unittest discover -s tests -v

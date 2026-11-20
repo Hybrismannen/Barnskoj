@@ -21,3 +21,6 @@ Om automatisk token inte har behörighet att skriva Wiki: ange en repo-/Wiki-skr
 - Om Wiki-commit saknas är publikationsstatus **NOT_VERIFIED**, inte godkänd.
 
 **Wiki och originalbilder är nu en separat förgrind till kommande WP, inte en retroaktiv ändring av historiska WP01–WP03.**
+
+## Dynamiska källor och copyright
+[Källnätverk för tio franchiseområden](../sourcing/wiki_sources.csv) bevakas med metadata och gransknings-PR. [Bildindex för 526 mål](../wiki-src/Bildindex.md) och [rättighetsmatris](../wiki-src/Rattighetsmatris.md) uppdateras med `python scripts/build_wiki.py`. Inget uppdateringsflöde tillåts publicera en identifierbar skyddad figur utan rättighetsklarering. [Rättighetskontrakt](../rights/README.md).

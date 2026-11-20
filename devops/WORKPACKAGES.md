@@ -19,3 +19,6 @@
 Detta är max **tre** WP, inte en ny arkitekturplan. WP01 migrerar kompatibilitetsvyer men raderar inte historiska redaktionella dossierer eller deras källspår. WP02 kör defensiva tester men gör ingen automatisk extern distribution. WP03 levererar faktisk prototyp, inte en godkänd bok/PDF.
 
 **Nästa möjliga beslut efter denna iteration:** påbörja mänskligt test och rättighetsgranskning för WP03-prototyper. Detta kräver separat publiceringsbeslut – inte ytterligare WP inom denna leverans.
+
+## Prospektiv styrning efter användardirektiv 2026-11-20
+De historiska WP01–WP03 behåller sina faktiska commits och tekniska PASS. **Före en ny arbetsomgång eller nytt genomförandegodkännande krävs nu** publicerad och remote-verifierad GitHub Wiki samt full originalbildsproveniens för alla 526 aktuella bildbehov. Separata rättighetsbeslut för kommersiell bokutgivning kvarstår även efter sourcing. [Maskingranskad blockeringsstatus](PRE_WP_STATUS.json) och [Wiki-först-instruktion](../docs/WIKI_WORKFLOW.md).

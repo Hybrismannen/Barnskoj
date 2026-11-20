@@ -21,7 +21,7 @@ jobs:
       - name: Validate watcher transition logic without network
         run: python scripts/watch_wiki_sources.py --check-fixture
       - name: Observe stable metadata (respect access blocks)
-        run: python scripts/watch_wiki_sources.py --network --max-pages 26
+        run: python scripts/watch_wiki_sources.py --network --max-pages 40
       - name: Create human review pull request only for observed changes
         uses: peter-evans/create-pull-request@v7
         with:

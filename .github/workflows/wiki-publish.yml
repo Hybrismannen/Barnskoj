@@ -41,7 +41,7 @@ jobs:
           target="https://github.com/${GITHUB_REPOSITORY}.wiki.git"
           export GIT_TERMINAL_PROMPT=0
           askpass="$(mktemp)"
-          printf '#!/bin/sh\ncase "$1" in *Username*) printf "x-access-token" ;; *Password*) printf "%%s" "$WIKI_TOKEN" ;; esac\n' > "$askpass"
+          printf '#!/bin/sh\ncase "$1" in *Username*) printf "x-access-token" ;; *Password*) printf "%s" "$WIKI_TOKEN" ;; esac\n' > "$askpass"
           chmod 700 "$askpass"
           export GIT_ASKPASS="$askpass"
           trap 'rm -f "$askpass"' EXIT
@@ -70,8 +70,8 @@ jobs:
             exit 1
           fi
           echo "### Wiki Git remote verification" >> "$GITHUB_STEP_SUMMARY"
-          echo "Remote: \`${GITHUB_REPOSITORY}.wiki.git\`" >> "$GITHUB_STEP_SUMMARY"
-          echo "Verified commit: \`${observed}\`" >> "$GITHUB_STEP_SUMMARY"
-          echo "Source main SHA: \`${GITHUB_SHA}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Remote: ${GITHUB_REPOSITORY}.wiki.git" >> "$GITHUB_STEP_SUMMARY"
+          echo "Verified commit: ${observed}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Source main SHA: ${GITHUB_SHA}" >> "$GITHUB_STEP_SUMMARY"
           echo "Manual external attestation remains required in devops/WIKI_PUBLICATION.json." >> "$GITHUB_STEP_SUMMARY"
           echo "Wiki remote Git commit verified: $observed"

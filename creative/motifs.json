@@ -1,0 +1,590 @@
+[
+  {
+    "id": "BS-MOT-0001",
+    "title_sv": "Jukebox",
+    "era_id": "era:1950s",
+    "theme_ids": [
+      "music",
+      "design"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-1950",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0002",
+    "title_sv": "Radioapparat",
+    "era_id": "era:1950s",
+    "theme_ids": [
+      "technology",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1950",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0003",
+    "title_sv": "Vinylsingel",
+    "era_id": "era:1950s",
+    "theme_ids": [
+      "music",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-1950",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0004",
+    "title_sv": "Plåtraket",
+    "era_id": "era:1950s",
+    "theme_ids": [
+      "science",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "pixel-art"
+    ],
+    "collection_id": "BS-GEN-1950",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0005",
+    "title_sv": "Transistorradio",
+    "era_id": "era:1960s",
+    "theme_ids": [
+      "technology",
+      "music"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1960",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0006",
+    "title_sv": "Elgitarr",
+    "era_id": "era:1960s",
+    "theme_ids": [
+      "music",
+      "design"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-1960",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0007",
+    "title_sv": "Rymdhjälm",
+    "era_id": "era:1960s",
+    "theme_ids": [
+      "science",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1960",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0008",
+    "title_sv": "Retro-skoter",
+    "era_id": "era:1960s",
+    "theme_ids": [
+      "transport",
+      "design"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1960",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0009",
+    "title_sv": "Bandspelare",
+    "era_id": "era:1970s",
+    "theme_ids": [
+      "music",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1970",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0010",
+    "title_sv": "Discokula",
+    "era_id": "era:1970s",
+    "theme_ids": [
+      "music",
+      "design"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "mandala",
+      "pixel-art"
+    ],
+    "collection_id": "BS-GEN-1970",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0011",
+    "title_sv": "Analog kamera",
+    "era_id": "era:1970s",
+    "theme_ids": [
+      "technology",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1970",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0012",
+    "title_sv": "Retrocykel",
+    "era_id": "era:1970s",
+    "theme_ids": [
+      "transport",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1970",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0013",
+    "title_sv": "Boombox",
+    "era_id": "era:1980s",
+    "theme_ids": [
+      "music",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1980",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0014",
+    "title_sv": "Arkadkabinett",
+    "era_id": "era:1980s",
+    "theme_ids": [
+      "gaming",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "pixel-art",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1980",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0015",
+    "title_sv": "BMX-hopp",
+    "era_id": "era:1980s",
+    "theme_ids": [
+      "sport",
+      "street"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1980",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0016",
+    "title_sv": "VHS-kassett",
+    "era_id": "era:1980s",
+    "theme_ids": [
+      "tv",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-1980",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0017",
+    "title_sv": "Fickspel",
+    "era_id": "era:1990s",
+    "theme_ids": [
+      "gaming",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "pixel-art"
+    ],
+    "collection_id": "BS-GEN-1990",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0018",
+    "title_sv": "Skateboard",
+    "era_id": "era:1990s",
+    "theme_ids": [
+      "sport",
+      "street"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-1990",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0019",
+    "title_sv": "Basketkorg",
+    "era_id": "era:1990s",
+    "theme_ids": [
+      "sport",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1990",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0020",
+    "title_sv": "Rullskridskor",
+    "era_id": "era:1990s",
+    "theme_ids": [
+      "sport",
+      "street"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-1990",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0021",
+    "title_sv": "Vikmobil",
+    "era_id": "era:2000s",
+    "theme_ids": [
+      "technology",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-2000",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0022",
+    "title_sv": "MP3-spelare",
+    "era_id": "era:2000s",
+    "theme_ids": [
+      "music",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-2000",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0023",
+    "title_sv": "Digitalkamera",
+    "era_id": "era:2000s",
+    "theme_ids": [
+      "technology",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-2000",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0024",
+    "title_sv": "Original fantasydrake",
+    "era_id": "era:2000s",
+    "theme_ids": [
+      "fantasy",
+      "design"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "maze"
+    ],
+    "collection_id": "BS-GEN-2000",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0025",
+    "title_sv": "Blocklandskap",
+    "era_id": "era:2010s",
+    "theme_ids": [
+      "gaming",
+      "design"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "pixel-art",
+      "maze"
+    ],
+    "collection_id": "BS-GEN-2010",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0026",
+    "title_sv": "Streamingmikrofon",
+    "era_id": "era:2010s",
+    "theme_ids": [
+      "music",
+      "tv"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-2010",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0027",
+    "title_sv": "Trådlösa hörlurar",
+    "era_id": "era:2010s",
+    "theme_ids": [
+      "music",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-2010",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0028",
+    "title_sv": "Original spelkontroll",
+    "era_id": "era:2010s",
+    "theme_ids": [
+      "gaming",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "pixel-art"
+    ],
+    "collection_id": "BS-GEN-2010",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0029",
+    "title_sv": "Spelstation",
+    "era_id": "era:2020s",
+    "theme_ids": [
+      "gaming",
+      "technology"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-2020",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0030",
+    "title_sv": "Sneaker",
+    "era_id": "era:2020s",
+    "theme_ids": [
+      "sport",
+      "street"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring",
+      "mandala"
+    ],
+    "collection_id": "BS-GEN-2020",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0031",
+    "title_sv": "Parkourhinder",
+    "era_id": "era:2020s",
+    "theme_ids": [
+      "sport",
+      "street"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "maze"
+    ],
+    "collection_id": "BS-GEN-2020",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  },
+  {
+    "id": "BS-MOT-0032",
+    "title_sv": "Lastcykel",
+    "era_id": "era:2020s",
+    "theme_ids": [
+      "transport",
+      "everyday"
+    ],
+    "format_ids": [
+      "dot-to-dot",
+      "coloring"
+    ],
+    "collection_id": "BS-GEN-2020",
+    "stage": "concept",
+    "asset_id": null,
+    "rights_basis": "original_design_required",
+    "identity_warning": "Inspirerad av allmän formhistoria; använd inte skyddad logotyp eller förväxlingsbar figurlikhet."
+  }
+]

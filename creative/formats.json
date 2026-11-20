@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dot-to-dot",
+    "label_sv": "Prick till prick"
+  },
+  {
+    "id": "mandala",
+    "label_sv": "Mandala"
+  },
+  {
+    "id": "coloring",
+    "label_sv": "Målarbild"
+  },
+  {
+    "id": "pixel-art",
+    "label_sv": "Pixel art"
+  },
+  {
+    "id": "maze",
+    "label_sv": "Labyrint"
+  },
+  {
+    "id": "quiz",
+    "label_sv": "Quiz"
+  }
+]

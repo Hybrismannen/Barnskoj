@@ -1,0 +1,57 @@
+[
+  {
+    "id": "music",
+    "label_sv": "Musik",
+    "description": "Musikens föremål, instrument, rytm och miljöer"
+  },
+  {
+    "id": "sport",
+    "label_sv": "Sport och rörelse",
+    "description": "Idrott, lek, utrustning och fysisk aktivitet"
+  },
+  {
+    "id": "gaming",
+    "label_sv": "Spel och gaming",
+    "description": "Spelplatser och originala spelrelaterade föremål"
+  },
+  {
+    "id": "tv",
+    "label_sv": "Barn-tv och skärmkultur",
+    "description": "TV-miljöer och analoga skärmar, inte skyddade figurer"
+  },
+  {
+    "id": "technology",
+    "label_sv": "Teknik och apparater",
+    "description": "Teknisk formhistoria"
+  },
+  {
+    "id": "transport",
+    "label_sv": "Fordon och rörelse",
+    "description": "Transportföremål och retrofordon"
+  },
+  {
+    "id": "science",
+    "label_sv": "Rymd och vetenskap",
+    "description": "Originala rymd- och teknikmotiv"
+  },
+  {
+    "id": "design",
+    "label_sv": "Design och mönster",
+    "description": "Grafisk form, geometri och dekor"
+  },
+  {
+    "id": "street",
+    "label_sv": "Gatu- och ungdomskultur",
+    "description": "Mode, skateboard, rörelse och form"
+  },
+  {
+    "id": "everyday",
+    "label_sv": "Vardagsföremål",
+    "description": "Ikoniska icke varumärkesspecifika föremål"
+  },
+  {
+    "id": "fantasy",
+    "label_sv": "Fantasi",
+    "description": "Helt självständiga fantasifigurer"
+  }
+]

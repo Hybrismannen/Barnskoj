@@ -244,7 +244,7 @@ def build():
             elif value=="not_applicable":
                 status,note="not_applicable","Ärvt registervärde; inte externt verifierat."
             elif value=="unknown":
-                status,note="unknown","Forskningslucka."
+                status,note="unknown","Ärvt registervärde; inte externt verifierat."
             else:
                 status,note="catalog_derived","Ärvt registervärde; inte externt verifierat."
             att=dict(entity_id=id,attribute=key,value=value,evidence_status=status,
@@ -274,10 +274,10 @@ def build():
                     "rights","publication","geographic_origin","identity","language_variant"]:
             vals = tag_facet.get(key)
             if not vals: raise ValueError("Missing tag facet "+id+"/"+key)
-            heading.append("- **"+key+":** "+", ".join("\`"+t+"\`" for t in vals))
+            heading.append("- **"+key+":** "+", ".join("`"+t+"`" for t in vals))
         heading.extend(["","**Käll-ID:** "+(e["source_ids"] or "saknas")+
                         " · **Claim-ID:** "+(e["claim_ids"] or "saknas"),"",
-                        "Obelagda uppgifter markeras \`unknown\`. Källor är inte bildlicenser. "+
+                        "Obelagda uppgifter markeras `unknown`. Källor är inte bildlicenser. "+
                         "Likvärdiga fält innebär inte likvärdig faktaverifiering.",""])
         record_files[e["baseline_record_path"]]="\n".join(heading)
 

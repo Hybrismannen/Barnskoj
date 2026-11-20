@@ -1,12 +1,14 @@
 {
+  "activity_prototypes": 3,
+  "assets_registered": 6,
   "atomic_claims": 39,
   "cdx_standing": "ANCHOR_DECLARED_NOT_CENTRALLY_VERIFIED",
   "collections_planned": 8,
   "editorial_crosslinks": 704,
   "entities": 485,
   "formats": 6,
-  "graph_edges": 3073,
-  "nodes": 680,
+  "graph_edges": 3085,
+  "nodes": 689,
   "original_motif_concepts": 32,
   "print_assets_published": 0,
   "research_grades": {

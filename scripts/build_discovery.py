@@ -132,6 +132,29 @@ def build():
                             ";".join(motif["theme_ids"]), motif["era_id"], "",
                             ";".join(motif["format_ids"]), motif["collection_id"]])
 
+    # Actual production activity and registered vector assets are separate from ideas.
+    motifs_by_id = {m["id"]: m for m in motifs}
+    assets_by_id = {a["asset_id"]: a for a in assets}
+    for a in activities:
+        activity_id = a["activity_id"]
+        motif = motifs_by_id[a["motif_id"]]
+        title = motif["title_sv"] + " – prick till prick"
+        node(activity_id, "activity_prototype", title, a["status"], "REVIEW_PENDING")
+        edge(activity_id, "USES_MOTIF", motif["id"], "production_manifest",
+             "original_prototype_not_published")
+        edge(activity_id, "USES_FORMAT", "format:" + a["format_id"], "production_manifest",
+             "original_prototype_not_published")
+        for asset_id in [a["asset_id"], a["solution_asset_id"]]:
+            if asset_id:
+                registered_asset = assets_by_id[asset_id]
+                node(asset_id, "asset", registered_asset["asset_kind"] + " / " + activity_id,
+                     "registered_not_published", registered_asset["rights_status"])
+                edge(activity_id, "HAS_ASSET", asset_id, "production_manifest",
+                     "not_rights_cleared")
+        search_rows.append([activity_id, title, "activity_prototype",
+                            ";".join(motif["theme_ids"]), motif["era_id"], "",
+                            a["format_id"], motif["collection_id"]])
+
     motif_sorted = sorted(motifs, key=lambda m: m["id"])
     for e in entities:
         e_id = e["entity_id"]
@@ -177,6 +200,8 @@ def build():
         "graph_edges": len(edges_data) - 1, "editorial_crosslinks": len(cross) - 1,
         "research_grades": dict(sorted(counts.items())),
         "print_assets_published": len(published_activities),
+        "activity_prototypes": sum(x["status"] == "prototype" for x in activities),
+        "assets_registered": len(assets),
         "cdx_standing": state
     }
     out["discovery/metrics.json"] = json.dumps(metrics, indent=2, ensure_ascii=False, sort_keys=True) + "\n"

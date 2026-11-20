@@ -1,4 +1,7 @@
 "node_id","name_sv","node_type","theme_ids","era_ids","research_grade","format_ids","collection_id"
+"BS-ACT-0001","Jukebox – prick till prick","activity_prototype","music;design","era:1950s","","dot-to-dot","BS-GEN-1950"
+"BS-ACT-0002","Discokula – prick till prick","activity_prototype","music;design","era:1970s","","dot-to-dot","BS-GEN-1970"
+"BS-ACT-0003","Arkadkabinett – prick till prick","activity_prototype","gaming;technology","era:1980s","","dot-to-dot","BS-GEN-1980"
 "BS-CHAR-0001","Gobo","entity","tv","era:1980s","Q2_partial_claim_verified","",""
 "BS-CHAR-0002","Mokey","entity","tv","era:1980s","Q2_partial_claim_verified","",""
 "BS-CHAR-0003","Wembley","entity","tv","era:1980s","Q2_partial_claim_verified","",""

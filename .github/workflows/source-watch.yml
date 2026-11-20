@@ -1,0 +1,40 @@
+name: Barnskoj organic universe source watch
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: wiki-universe-source-watch
+  cancel-in-progress: false
+jobs:
+  watch-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate watcher transition logic without network
+        run: python scripts/watch_wiki_sources.py --check-fixture
+      - name: Observe stable metadata (respect access blocks)
+        run: python scripts/watch_wiki_sources.py --network --max-pages 26
+      - name: Create human review pull request only for observed changes
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'sourcewatch: review wiki revision metadata'
+          title: 'SourceWatch – wiki change review queue'
+          body: |
+            Automated metadata observation only. No wiki text, pictures or facts
+            have been imported or approved.
+            Human reviewer must verify each changed article against original owner.
+            If Fandom blocks access, status is ACCESS_BLOCKED, not a source deletion.
+          branch: automation/wiki-source-review
+          delete-branch: true
+          add-paths: |
+            sourcing/watch-state.json
+            sourcing/change-backlog.csv
+            sourcing/watch-report.json

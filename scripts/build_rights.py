@@ -35,9 +35,13 @@ def build():
     images=load("images/requirements.csv")
     motifs=json.loads((ROOT/"creative/motifs.json").read_text(encoding="utf-8"))
     staged=load("sourcing/staged_entities.csv")
+    staged_images=load("images/staged_requirements.csv")
     franchises=load("sourcing/franchises.csv")
     links=load("sourcing/entity_source_links.csv")
     by_image={r["target_id"]:r for r in images}
+    by_staged_image={r["target_id"]:r for r in staged_images}
+    if set(by_staged_image)!={r["candidate_id"] for r in staged}:
+        raise ValueError("Staged image requirements must cover every candidate")
     by_franchise={f["franchise_id"]:f for f in franchises}
     by_world={f["existing_world_id"]:f for f in franchises if f["existing_world_id"]!="STAGED"}
     by_entity={r["entity_id"]:r["franchise_id"] for r in links}
@@ -86,7 +90,7 @@ def build():
                          "generic_original_concept"))
     for e in staged:
         rows.append(base(e["candidate_id"],e["display_name"],"staged_character",
-                         e["franchise_id"],e["continuity"],{},
+                         e["franchise_id"],e["continuity"],by_staged_image[e["candidate_id"]],
                          e["rights_subject"]))
     if len(rows)!=(len(entities)+len(motifs)+len(staged)):
         raise ValueError("Rights coverage mismatch")

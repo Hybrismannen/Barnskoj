@@ -12,6 +12,7 @@ on:
       - 'quality/**'
       - 'creative/**'
       - 'production/**'
+      - 'devops/**'
       - 'discovery/**'
       - 'scripts/**'
       - 'tests/**'
@@ -34,6 +35,10 @@ jobs:
         run: python scripts/validate_catalog.py
       - name: Validate universal entity parity and evidence
         run: python scripts/validate_parity.py
+      - name: Reject stale generated vector prototypes
+        run: python scripts/build_prototypes.py --check
+      - name: Validate SVG geometry, labels and solutions
+        run: python scripts/validate_svg_prototypes.py
       - name: Validate actual activity and asset release gates
         run: python scripts/validate_production.py
       - name: Fail on stale derived discovery graph

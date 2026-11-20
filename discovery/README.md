@@ -5,10 +5,11 @@
 ## Datakällor och automatiska vyer
 
 **Primära redigerbara källor**
-- [catalog/entities.csv](../catalog/entities.csv): befintliga 485 entiteter.
+- [catalog/source/entities_base.csv](../catalog/source/entities_base.csv) och [legacy_details.csv](../catalog/source/legacy_details.csv): 485 entiteter med kategoriunika äldre uppgifter. `catalog/entities.csv` är nu en **genererad** läsvy.
 - [evidence/claims.csv](../evidence/claims.csv) + [sources/registry.csv](../sources/registry.csv): atomära belägg.
 - [creative/motifs.json](../creative/motifs.json), [themes.json](../creative/themes.json) och [formats.json](../creative/formats.json): kuraterad originalinspiration.
 - [catalog/decades/collections.csv](../catalog/decades/collections.csv): planerade bokserier.
+- [production/activities.csv](../production/activities.csv) och [assets.csv](../production/assets.csv): 3 prototyper, 6 SVG-assets – samtliga ej publicerade.
 
 **Genererade filer – redigera inte manuellt**
 - `discovery/nodes.csv` – samma nod-ID oavsett vilken kategori eller vy som används.
@@ -20,6 +21,7 @@
 ## Tillämpning
 
 ```bash
+python scripts/build_catalog.py
 python scripts/build_discovery.py
 python scripts/build_discovery.py --check
 python scripts/query_discovery.py --entity BS-CHAR-0001
@@ -35,6 +37,7 @@ Vid ny research: redigera faktakällor och claims samt verifiera med befintlig Q
 - `CATALOG_TOPIC` och `CATALOG_ERA_ASSOCIATION`: bred sökkontext hämtad ur ärvda taggar, inte ett historiskt verifierat påstående.
 - `EDITORIAL_DISCOVERY_CANDIDATE`: **endast ett kreativt förslag** att ta fram en självständig originalillustration. Ingen upphovs- eller porträtträtt.
 - `CONCEPT_FOR_COLLECTION` / `FORMAT_CANDIDATE`: planerade användningar, inte färdiga aktiviteter.
+- `USES_MOTIF`, `USES_FORMAT`, `HAS_ASSET`: faktiska interna prototyper, format och registrerade vektorfiler; **ingen publiceringsklarering**.
 
 ## Varför grafen ger mer än taggar
 En Fragglarna-figur kan filtreras efter TV/1980-tal, kopplas till ett generiskt **VHS-motiv**, därefter till prick-till-prick och planerad 1980-talsbok. En musikartist kan hitta en **mikrofon** via musikkontext utan att vi förfalskar artistens tidslinje eller kopierar porträttet. Själva relationerna är avsiktligt markerade som redaktionell association, inte faktabevis.

@@ -42,6 +42,9 @@
 
 **Alla har nu samma standard för verifierbarhet, inte samma mängd verifierade historiska fakta.** Fält utan stöd får inte förvandlas till antaganden. Betydelsen av epok, ursprungsland och svensk sändning hålls åtskilda.
 
-[Kanoniska 485-register](../catalog/entities.csv) · [Attributbelägg](../evidence/attribute_evidence.csv) · [Individuella datakort](../records/) · [Paritetsrevision](../quality/entity_parity.csv) · [Taggdefinitioner](../tags/taxonomy.csv).
+[Kanonisk redigerbar bas](../catalog/source/entities_base.csv) · [genererad läsvy med 485 entiteter](../catalog/entities.csv) · [Attributbelägg](../evidence/attribute_evidence.csv) · [Individuella datakort](../records/) · [Paritetsrevision](../quality/entity_parity.csv) · [Taggdefinitioner](../tags/taxonomy.csv).
 
 Inga rättigheter till figurer och porträtt är klarerade. Q3 kräver verklig individuell djupgranskning med ursprungs- och versionsfakta, relevanta primärkällor, konflikthantering och redaktionell sign-off.
+
+## Automatiserad paritet efter WP01
+Ändra kanoniska fält endast i [entities_base.csv](../catalog/source/entities_base.csv). Kategoriunika uppgifter finns i [legacy_details.csv](../catalog/source/legacy_details.csv); faktabelägg i [claims.csv](../evidence/claims.csv) och [field_proofs.csv](../evidence/field_proofs.csv); taggar i [assignments.csv](../tags/assignments.csv). `python scripts/build_catalog.py` återgenererar 485 standardkort, kategorivyer och kvalitetsregister. `--check` avvisar exakt drift.

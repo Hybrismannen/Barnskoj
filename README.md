@@ -10,13 +10,13 @@ Barnskoj är under uppbyggnad som ett generationsöverskridande kultur-, origina
 | --- | --- | --- |
 | [Kulturreferenser](catalog/entities.csv) | 485 figurer, personer/grupper och programvärldar, 90 källadresser, 39 avgränsade faktabelägg | Forskningsdata, inte bildlicenser |
 | [Kreativa motiv](creative/README.md) | 32 självständiga originalkoncept, 12 teman, 6 format och 8 generationskollektioner | Förslag – inga färdiga originalbilder |
-| [Färdiga aktiviteter och assets](production/README.md) | Aktivitetsblad, originalfiler, facit, rättighetsbeslut och trycktest | **0 producerade/publicerade** |
+| [Aktiviteter och assets](production/README.md) | Tre A4-prick-till-prick-prototyper med facit (sex SVG-filer) | **3 prototyper · 0 publicerade** |
 
 Den automatiskt uppdaterbara statusen finns i [discovery/metrics.json](discovery/metrics.json).
 
 ## Sök, kombinera och skapa
 
-[Upptäcktsgrafen](discovery/README.md) binder ihop **680 noder, 3 073 relationer och 704 kreativa förslag** genom epoker, intressen, figurer, sport, musik, barn-tv, originalmotiv, format och bokserier.
+[Upptäcktsgrafen](discovery/README.md) binder ihop **689 noder, 3 085 relationer och 704 kreativa förslag** genom epoker, intressen, figurer, sport, musik, barn-tv, originalmotiv, format och bokserier.
 
 - [Filter- och sökindex](discovery/search.csv)
 - [Relationer med bevisgränser](discovery/edges.csv)
@@ -51,18 +51,16 @@ Kulturreferens → tema/epok → självständigt originalmotiv
 
 ## Uppdatera dataset
 
-**Redigera källan, generera vyerna.** Den befintliga entitetsmodellen har ännu äldre parallella katalogfiler som behöver en separat, versionssäker konsolidering. Det nya kreativ-/discovery-lagret är automatiskt reproducerbart:
+**En kanonisk skrivväg:** [catalog/source/entities_base.csv](catalog/source/entities_base.csv) äger entitetsbasen och [legacy_details.csv](catalog/source/legacy_details.csv) bevarar kategoriunika fält. Källor, claims och taggar underhålls i sina respektive källregister. Alla 485 datakort och äldre CSV-vyer genereras, inte redigeras manuellt. För prototyper finns [produktionsspecifikationer](production/prototype_specs.json).
 
 ```bash
+python scripts/build_catalog.py
 python scripts/build_discovery.py
-python scripts/build_discovery.py --check
-python scripts/validate_catalog.py
-python scripts/validate_parity.py
-python scripts/validate_production.py
-python -m unittest discover -s tests -v
+python scripts/build_prototypes.py
+python scripts/doctor.py
 ```
 
-[Systemkartan](docs/SYSTEM_ARCHITECTURE.md) visar källor och härledda vyer. [Arkitekturrevision](docs/ARCHITECTURE_AUDIT_2026-11-20.md) beskriver flaskhalsar och prioriterad utveckling. [Roadmap](docs/ROADMAP.md) följer leveranser.
+[DevOps – exakt tre arbetspaket](devops/WORKPACKAGES.md) och [driftrutin](devops/RUNBOOK.md) beskriver vad som får redigeras, genereras och publiceras. [Systemkartan](docs/SYSTEM_ARCHITECTURE.md) visar källor och härledda vyer. [Arkitekturrevision](docs/ARCHITECTURE_AUDIT_2026-11-20.md) beskriver flaskhalsar och prioriterad utveckling. [Roadmap](docs/ROADMAP.md) följer leveranser.
 
 ## CDX
 

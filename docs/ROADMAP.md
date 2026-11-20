@@ -36,12 +36,19 @@
 
 ## FAS 0E – Graf, originalmotiv, produktionsjournal och CDX (2026-11-20)
 - [x] 32 självständiga originalkoncept och 12 intresseteman
-- [x] Automatiskt genererad korskopplingsgraf (680 noder, 3 073 relationer, 704 idéförslag)
+- [x] Automatiskt genererad korskopplingsgraf (689 noder, 3 085 relationer, 704 idéförslag)
 - [x] Kodstyrda sökvyer och CI-kontroll av stale outputs
 - [x] Separat aktivitets- och assetjournal med fail-closed publiceringsgrind
 - [x] Lokalt CDX 1.0.0-ankare, CI-testat som deklaration
 - [ ] Central CDX-admission och oberoende kontroll
-- [ ] Konsoliderat entitets-write-model efter genomgång av alla konsumenter
+- [x] Kanonisk entitetsbas, genererade äldre kompatibilitetsregister och 485 synkroniserade datakort
+- [ ] Fortsatt konsumentgranskning av redaktionella profiler och dossierer (bevaras)
+
+## Genomförda DevOps-arbetspaket – max tre
+- [x] WP01 – Kanonisk skrivmodell och genererade datavyer
+- [x] WP02 – CI, negativa tester, kontrollgrindar och driftkommandot `scripts/doctor.py`
+- [x] WP03 – Tre reproducerbara SVG-prototyper och tre facit, kopplade till graf/produktionsregister
+- [ ] Förbered mänskligt trycktest och godkännande inför publicering
 
 ## FAS 1 – Utskrivbar MVP
 - [ ] Producera 10 originalmotiv prick-till-prick med facit

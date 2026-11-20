@@ -2,6 +2,9 @@
 
 Här samlas researchposter om **fiktiva figurer/programvärldar** och **verkliga kända personer**. Katalogen är ett metadata- och inspirationsregister, **inte ett bibliotek av bilder som får återanvändas**.
 
+## Kanonisk skrivmodell
+Det redigerbara masterregistret är [source/entities_base.csv](source/entities_base.csv) tillsammans med [source/legacy_details.csv](source/legacy_details.csv); faktabelägg och taggkopplingar är separata inputs. **Ändra inte `entities.csv` eller kategorivyer direkt.** Kör `python scripts/build_catalog.py` och `python scripts/build_discovery.py` samt hela [DevOps-testkedjan](../devops/RUNBOOK.md).
+
 ## Gemensam standard
 [Alla 485 entiteter](entities.csv), inklusive 55 [universum](universes.csv), har samma 17 attribut och 14 obligatoriska taggdimensioner. Se [paritetsstandard](../docs/PARITY_STANDARD.md) och [forskningsgap](../quality/RESEARCH_PARITY.md). Äldre separata listor finns kvar för kategoriserad sökning och är synkroniserade mot det kanoniska registret.
 

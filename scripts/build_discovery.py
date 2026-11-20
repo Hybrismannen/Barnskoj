@@ -47,6 +47,8 @@ def build():
     themes = json_in("creative/themes.json")
     formats = json_in("creative/formats.json")
     books = csv_in("catalog/decades/collections.csv")
+    activities = csv_in("production/activities.csv")
+    assets = csv_in("production/assets.csv")
     entity_ids = {x["entity_id"] for x in entities}
     source_ids = {x["source_id"] for x in sources}
     theme_ids = {x["id"] for x in themes}
@@ -160,14 +162,22 @@ def build():
            "discovery/crosslinks.csv": csv_out(cross),
            "discovery/search.csv": csv_out(search)}
     counts = Counter(e["research_grade"].split("_")[0] for e in entities)
+    # Data-derived release metrics. Never infer produced assets from a concept brief.
+    asset_ids = {x["asset_id"] for x in assets}
+    published_activities = [x for x in activities if x["status"] == "published"]
+    for x in published_activities:
+        assert x["asset_id"] in asset_ids, "Published activity without tracked asset"
+    anchor = json_in(".cdx/anchor.json")
+    state = anchor["binding_state"] + ("_NOT_CENTRALLY_VERIFIED"
+              if anchor["verification"]["verification_state"] == "NOT_VERIFIED" else "_EXPLICIT_VERIFICATION_RECORDED")
     metrics = {
         "entities": len(entities), "source_refs": len(sources), "atomic_claims": len(claims),
         "original_motif_concepts": len(motifs), "collections_planned": len(books),
         "themes": len(themes), "formats": len(formats), "nodes": len(nodes) - 1,
         "graph_edges": len(edges_data) - 1, "editorial_crosslinks": len(cross) - 1,
         "research_grades": dict(sorted(counts.items())),
-        "print_assets_published": 0,
-        "cdx_standing": "ANCHOR_DECLARED_NOT_CENTRALLY_VERIFIED"
+        "print_assets_published": len(published_activities),
+        "cdx_standing": state
     }
     out["discovery/metrics.json"] = json.dumps(metrics, indent=2, ensure_ascii=False, sort_keys=True) + "\n"
     return out, metrics

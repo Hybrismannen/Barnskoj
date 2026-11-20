@@ -10,6 +10,7 @@ on:
       - 'evidence/**'
       - 'quality/**'
       - 'creative/**'
+      - 'production/**'
       - 'discovery/**'
       - 'scripts/**'
       - 'tests/**'
@@ -30,6 +31,8 @@ jobs:
         run: python scripts/validate_catalog.py
       - name: Validate universal entity parity and evidence
         run: python scripts/validate_parity.py
+      - name: Validate actual activity and asset release gates
+        run: python scripts/validate_production.py
       - name: Fail on stale derived discovery graph
         run: python scripts/build_discovery.py --check
       - name: Run example cross-category queries

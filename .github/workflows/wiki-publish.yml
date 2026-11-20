@@ -23,23 +23,30 @@ jobs:
           python-version: '3.12'
       - name: Ensure generated index pages are current
         run: python scripts/build_wiki.py --check
-      - name: Push all managed Markdown pages to GitHub Wiki
+      - name: Require dedicated Wiki Git credentials
         env:
-          WIKI_TOKEN: ${{ secrets.BARNSKOJ_WIKI_TOKEN || github.token }}
+          WIKI_TOKEN: ${{ secrets.BARNSKOJ_WIKI_TOKEN }}
+        shell: bash
+        run: |
+          if [[ -z "${WIKI_TOKEN}" ]]; then
+            echo "::error::BARNSKOJ_WIKI_TOKEN is missing. Supply a token authorized to read and write the repository Wiki Git remote; the default GITHUB_TOKEN must not silently substitute."
+            exit 1
+          fi
+      - name: Push and verify managed Markdown pages
+        env:
+          WIKI_TOKEN: ${{ secrets.BARNSKOJ_WIKI_TOKEN }}
         shell: bash
         run: |
           set -euo pipefail
-          # First Wiki page must be created once using GitHub's Wiki tab.
-          # A token that can write to the Wiki Git repository is required.
           target="https://github.com/${GITHUB_REPOSITORY}.wiki.git"
           export GIT_TERMINAL_PROMPT=0
           askpass="$(mktemp)"
-          printf '#!/bin/sh\ncase "$1" in *Username*) printf "x-access-token" ;; *Password*) printf "%s" "$WIKI_TOKEN" ;; esac\n' > "$askpass"
+          printf '#!/bin/sh\ncase "$1" in *Username*) printf "x-access-token" ;; *Password*) printf "%%s" "$WIKI_TOKEN" ;; esac\n' > "$askpass"
           chmod 700 "$askpass"
           export GIT_ASKPASS="$askpass"
           trap 'rm -f "$askpass"' EXIT
           if ! git ls-remote "$target" HEAD >/dev/null; then
-            echo "::error::Wiki missing or not authorized. Open the GitHub Wiki tab, create the first Home page, then grant Wiki write permission to BARNSKOJ_WIKI_TOKEN."
+            echo "::error::Unable to authenticate to Wiki Git. Check Wiki initialization and BARNSKOJ_WIKI_TOKEN authorization."
             exit 1
           fi
           git clone --quiet "$target" "$RUNNER_TEMP/barnskoj-wiki"
@@ -58,9 +65,13 @@ jobs:
           fi
           expected="$(git rev-parse HEAD)"
           observed="$(git ls-remote "$target" HEAD | cut -f1)"
-          test "$expected" = "$observed" || {
-            echo "::error::Wiki remote SHA did not match published content"
+          if [[ "$expected" != "$observed" ]]; then
+            echo "::error::Wiki remote SHA did not match checked-in content."
             exit 1
-          }
-          echo "WIKI_REMOTE_VERIFIED_SHA=$observed" >> "$GITHUB_ENV"
+          fi
+          echo "### Wiki Git remote verification" >> "$GITHUB_STEP_SUMMARY"
+          echo "Remote: \`${GITHUB_REPOSITORY}.wiki.git\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Verified commit: \`${observed}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Source main SHA: \`${GITHUB_SHA}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Manual external attestation remains required in devops/WIKI_PUBLICATION.json." >> "$GITHUB_STEP_SUMMARY"
           echo "Wiki remote Git commit verified: $observed"

@@ -9,6 +9,8 @@ on:
       - 'sources/**'
       - 'evidence/**'
       - 'quality/**'
+      - 'creative/**'
+      - 'discovery/**'
       - 'scripts/**'
       - 'tests/**'
       - '.github/workflows/catalog-validation.yml'
@@ -28,5 +30,11 @@ jobs:
         run: python scripts/validate_catalog.py
       - name: Validate universal entity parity and evidence
         run: python scripts/validate_parity.py
+      - name: Fail on stale derived discovery graph
+        run: python scripts/build_discovery.py --check
+      - name: Run example cross-category queries
+        run: |
+          python scripts/query_discovery.py --entity BS-CHAR-0001
+          python scripts/query_discovery.py --theme music --era 1970s --limit 4
       - name: Run integrity tests
         run: python -m unittest discover -s tests -v

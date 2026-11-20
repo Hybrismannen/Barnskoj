@@ -53,5 +53,10 @@
     "id": "fantasy",
     "label_sv": "Fantasi",
     "description": "Helt självständiga fantasifigurer"
+  },
+  {
+    "id": "storytelling",
+    "label_sv": "Berättelser och serier",
+    "description": "Böcker, serievärldar, originala fantasymotiv och berättande"
   }
 ]

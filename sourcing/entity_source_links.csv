@@ -1,0 +1,7 @@
+"entity_id","franchise_id","source_id","link_kind"
+"BS-WORLD-002","SESAME","WIK-SES-001","existing_universe"
+"BS-CHAR-0010","SESAME","WIK-SES-003","existing_character_elmo"
+"BS-WORLD-024","STARWARS","WIK-SW-001","existing_universe"
+"BS-WORLD-016","POKEMON","WIK-POK-001","existing_universe"
+"BS-WORLD-023","DISNEY","WIK-DIS-001","existing_universe"
+"BS-WORLD-005","MOOMIN","WIK-MOO-001","existing_universe"

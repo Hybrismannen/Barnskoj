@@ -1,0 +1,14 @@
+{
+  "schema": "barnskoj.pre_wp/v1",
+  "as_of": "2026-11-20",
+  "wp_history": "WP01-WP03 from prior iteration remain recorded as technically completed, not retroactively undone.",
+  "new_prerequisites": {
+    "wiki_content_prepared": true,
+    "wiki_remote_publication_verified": false,
+    "original_image_requirement_rows": 517,
+    "original_images_source_confirmed": 0,
+    "all_visual_sources_complete": false
+  },
+  "readiness": "BLOCKED",
+  "reason": "Wiki publication and original image provenance not verified for all 517 targets; future WP approval requires separate live checks."
+}
